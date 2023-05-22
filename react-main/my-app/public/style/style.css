@@ -73,8 +73,14 @@ body {
     padding-bottom: 1rem;
 }
 
-.logo-gif {
+.logo-img-header {
     height: 20vh;
+    padding-bottom: 1.5%;
+}
+
+.logo-img-header-landing {
+    height: 20vh;
+    padding-bottom: 0.5%;
 }
 
 .enter-text a{
@@ -190,4 +196,99 @@ body {
 
 .walrus a:hover {
     color: var(--highlight3);
+}
+
+/* about page */
+.about {
+    background-image: url(../media/drawdinner.png);
+    width: 99vw;
+    height: 100vh;
+    background-position: 15%;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+}
+
+.about-highlight-span {
+    color: var(--highlight);
+}
+
+.about-header {
+    background-color: var(--light-text);
+    border: var(--darker-bg) 1px solid;
+    box-shadow: 10px 8px 0px #242424;
+    color: var(--dark-text);
+    padding-left: 1rem;
+    margin-top: 11.3rem;
+    width: calc((14 - 1) * 1.2vw + 1rem);
+}
+
+.about-info-div {
+    height: 70vh;
+    width: calc((40 - 1) * 1.2vw + 1rem);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.about-text {
+    background-color: var(--light-text);
+    border: var(--darker-bg) 1px solid;
+    box-shadow: 10px 8px 0px #242424;
+    color: var(--dark-text);
+    padding-left: 1rem;
+    margin-top: 3rem;
+}
+
+/* art page */
+.art {
+    background-image: url(../media/drawstairs.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: 15%;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+}
+
+.art-highlight-span {
+    color: var(--highlight3);
+}
+
+/* games page */
+.games {
+    width: 100vw;
+    height: 100vh;
+    background-position: 15%;
+    background-attachment: fixed;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+}
+
+.games-highlight-span {
+    color: var(--highlight);
+}
+
+/* jp page */
+.jp {
+    width: 100vw;
+    height: 100vh;
+    background-position: 15%;
+    background-attachment: fixed;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+}
+
+.jp-highlight-span {
+    color: var(--highlight3);
+}
+
+/* webdev page */
+.webdev {
+    width: 100vw;
+    height: 100vh;
+    background-position: 15%;
+    background-attachment: fixed;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+}
+
+.webdev-highlight-span {
+    color: var(--highlight);
 }
