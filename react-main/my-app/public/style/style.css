@@ -254,6 +254,18 @@ body {
     color: var(--highlight3);
 }
 
+.art-conts-div {
+    height: 70vh;
+    width: calc((50 - 1) * 1.2vw + 1rem);
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-top: 4rem;
+}
+
+.art-row-2 {
+    padding-left: 2rem;
+}
+
 /* games page */
 .games {
     width: 100vw;
