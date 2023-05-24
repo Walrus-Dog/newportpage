@@ -24,6 +24,7 @@ font-family: 'Titillium Web', sans-serif;
     --highlight2: #00AEFF;
     --highlight3: #FF0032;
     --highlight4: #00FFFB;
+    --highlight5: #a70021;
 }
 
 .icon {
@@ -251,25 +252,33 @@ body {
 }
 
 .art-highlight-span {
-    color: var(--highlight3);
+    color: var(--highlight5);
 }
 
 .art-nav-wrapper, .art-social-section, .art-colophon {
-    box-shadow: 10px 8px 0px #FF0032;
+    box-shadow: 10px 8px 0px #a70021;
     border: var(--highlight3) 1px solid;
 }
 
 .art-conts-div {
     background-color: var(--light-text);
-    box-shadow: 10px 8px 0px #FF0032;
+    box-shadow: 10px 8px 0px #a70021;
+    border: var(--highlight5) 1px solid ;
+    margin-top: 2rem;
     padding-top: 2rem;
-    width: 50vw;
+    width: 60vw;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
-.art-img img{
+.art-img-sep {
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.art-img {
+    border: 1px solid var(--darker-bg);
 }
 
 /* games page */
