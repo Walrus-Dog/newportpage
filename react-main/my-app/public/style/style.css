@@ -254,16 +254,22 @@ body {
     color: var(--highlight3);
 }
 
-.art-conts-div {
-    height: 70vh;
-    width: calc((50 - 1) * 1.2vw + 1rem);
-    overflow: scroll;
-    overflow-x: hidden;
-    padding-top: 4rem;
+.art-nav-wrapper, .art-social-section, .art-colophon {
+    box-shadow: 10px 8px 0px #FF0032;
+    border: var(--highlight3) 1px solid;
 }
 
-.art-row-2 {
+.art-conts-div {
+    background-color: var(--light-text);
+    box-shadow: 10px 8px 0px #FF0032;
+    padding-top: 2rem;
+    width: 50vw;
+}
+
+.art-img img{
+    padding-top: 1rem;
     padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* games page */
