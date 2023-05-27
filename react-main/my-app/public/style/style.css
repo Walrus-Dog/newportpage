@@ -263,10 +263,11 @@ body {
 .art-conts-div {
     background-color: var(--light-text);
     box-shadow: 10px 8px 0px #a70021;
-    border: var(--highlight5) 1px solid ;
+    border: var(--highlight5) 1px solid;
     margin-top: 2rem;
     padding-top: 2rem;
     width: 60vw;
+    height: 93.4vh;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -275,10 +276,15 @@ body {
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 
 .art-img {
     border: 1px solid var(--darker-bg);
+}
+
+.mike-drawing {
+    width: 114vw;
 }
 
 /* games page */
