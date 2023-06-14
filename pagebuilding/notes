@@ -3,3 +3,6 @@ could have a thing where it picks a random iamge, then changes the color pallet 
 make contact a drop down on smaller sizes 
 
 add some funky movement stuff to the text divs ino center 
+
+npx next build
+npx next start
