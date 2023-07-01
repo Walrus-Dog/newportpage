@@ -74,17 +74,23 @@ font-family: 'Titillium Web', sans-serif;
     padding-bottom: 1rem;
 }
 
+/* logo stuff */
+
 .logo-img-header {
-    height: 20vh;
-    padding-top: 1%;
+    height: 22vh;
+    padding-top: 1rem;
     padding-bottom: 1.5%;
+    position: fixed;
 }
 
-.logo-img-header-landing {
-    height: 20vh;
+/* .logo-img-header-landing {
+    height: 22vh;
     padding-top: 0.4%;
     padding-bottom: 0.5%;
-}
+    position: fixed;
+} */
+
+/* logo stuff */
 
 .enter-text {
     color: var(--highlight);
@@ -117,7 +123,9 @@ font-family: 'Titillium Web', sans-serif;
     padding-left: 1rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+    top: 12rem;
     width: 12vw;
+    position: fixed;
 }
 
 .nav-wrapper-inner a {
@@ -140,8 +148,9 @@ font-family: 'Titillium Web', sans-serif;
     box-shadow: 10px 8px 0px #242424;
     color: var(--dark-text);
     padding-bottom: 1rem;
-    margin-top: 3rem;
+    top: 27.5rem;
     width: calc((14 - 1) * 1.2vw + 1rem);
+    position: fixed;
 }
 
 .socials-header {
@@ -176,8 +185,9 @@ font-family: 'Titillium Web', sans-serif;
     background-color: var(--light-text);
     border: var(--dark-text) 1px solid;
     box-shadow: 5px 5px 0px #242424;
-    margin-top: 3rem;
+    top: 36.3rem;
     width: 5vw;
+    position: fixed;
 }
 
 .flag-css {
@@ -196,8 +206,9 @@ font-family: 'Titillium Web', sans-serif;
     border: var(--dark-text) 1px solid;
     box-shadow: 5px 5px 0px #242424;
     color: var(--dark-text);
-    margin-top: 3rem;
+    top: 40.7rem;
     width: 15vw;
+    position: fixed;
 }
 
 .copy-text {
@@ -222,7 +233,6 @@ font-family: 'Titillium Web', sans-serif;
 .about {
     background-image: url(../media/drawdinner.png);
     width: 99vw;
-    height: 100vh;
     background-position: 15%;
     background-attachment: fixed;
     background-size: 100%;
@@ -245,11 +255,8 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .about-info-div {
-    height: 70vh;
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px #242424;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 .about-text {
@@ -262,8 +269,7 @@ font-family: 'Titillium Web', sans-serif;
 /* art page */
 .art {
     background-image: url(../media/drawstairs.png);
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
     background-position: 15%;
     background-attachment: fixed;
     background-size: 100%;
@@ -285,16 +291,14 @@ font-family: 'Titillium Web', sans-serif;
     border: var(--highlight5) 1px solid;
     margin-top: 2rem;
     padding-top: 2rem;
+    height: 440vh;
     width: 60vw;
-    height: 95vh;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 .art-img-sep {
     padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -303,13 +307,12 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .mike-drawing {
-    width: 114vw;
+    width: 112vw;
 }
 
 /* games page */
 .games {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
     background-image: url(../media/gamestempbg.jpg);
     background-size: 100%;
     background-position: 15%;
@@ -338,7 +341,6 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .games-info-div {
-    height: 70vh;
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px var(--highlight);
     overflow: scroll;
@@ -352,10 +354,38 @@ font-family: 'Titillium Web', sans-serif;
     padding-left: 1rem;
 }
 
+.gametitle {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.gametitle:hover {
+    color: #ff5100;
+}
+
+.games-img {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 2rem;
+    width: 20vw;
+}
+
+.games-img2 {
+    padding-bottom: 2rem;
+}
+
+.concept-title {
+    color: var(--highlight);
+    text-decoration: underline;
+}
+
+.concept-title:hover {
+    color: var(--highlight3);
+}
+
 /* jp page */
 .jp {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
     background-image: url(../media/jptempbg.jpg);
     background-size: 100%;
     background-position: 15%;
@@ -379,11 +409,8 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .jp-info-div {
-    height: 70vh;
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px #242424;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 .jp-text {
@@ -395,8 +422,7 @@ font-family: 'Titillium Web', sans-serif;
 
 /* webdev page */
 .webdev {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
     background-image: url(../media/webdevtempbg.jpg);
     background-position: 15%;
     background-attachment: fixed;
@@ -431,11 +457,8 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .webdev-info-div {
-    height: 70vh;
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px var(--light-text);
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 .webdev-text {
