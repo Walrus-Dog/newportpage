@@ -29,44 +29,109 @@ export default function WebDev() {
                             </div>
                             <div class="webdev-info-div">
                                 <p class="webdev-text">
-                                        test
-                                        test
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
-                                        <br/>
+                                        <p>Web dev is where one of my passions lies! Though I see myself as better at design than the more technical aspects, I can learn anything I need to make the site as good as it can be. Here on this page will be some of the sites I made before and after MSCA. The differences between them should hopefully serve as a timeline of skill progression. </p>
+                                        <p>(Some of the websites featured are not active)</p>
+                                        <br />
+                                        <br />
+                                        {/* ep site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Exit Plan</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/epsite.gif" />
+                                            </a>
+                                            <p className="site-desc">Mock up site for my game studio</p>
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/epwebsite" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* old port site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Old Portfolio</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/oldportpagesite.gif" />
+                                            </a>
+                                            <p className="site-desc">My old page made at MSCA</p>
+                                            <a target="_blank" href="https://walrus-dog.github.io/PortPage/" className="site-link">_GitHub Environment</a>
+                                            <br />
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/PortPage" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* rq site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Ramen Quest</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/rqsite.gif" />
+                                            </a>
+                                            <p className="site-desc">First version of Ramen Quest made at MSCA</p>
+                                            <a target="_blank" href="https://walrus-dog.github.io/ramenquest/" className="site-link">_GitHub Environment</a>
+                                            <br />
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/ramenquest" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* venedor site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Venedor</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/venedorsite.gif" />
+                                            </a>
+                                            <p className="site-desc">Fake store page made at MSCA</p>
+                                            <a target="_blank" href="https://walrus-dog.github.io/Venedor-Boot/" className="site-link">_GitHub Environment</a>
+                                            <br />
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/Venedor-Boot" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* graphicsumbrella site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Graphics Umbrella</h1>
+                                            <a href="">
+                                            <img className="img img-fluid dev-img" src="/media/webdevgifs/graphicsite.gif" />
+                                            </a>
+                                            <p className="site-desc">Fake design site made at MSCA</p>
+                                            <a target="_blank" href="https://walrus-dog.github.io/Umbrella-Boot/" className="site-link">_GitHub Environment</a>
+                                            <br />
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/Umbrella-Boot" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* aditti site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Aditti</h1>
+                                            <a href="">
+                                            <img className="img img-fluid dev-img" src="/media/webdevgifs/aditisite.gif" />
+                                            </a>
+                                            <p className="site-desc">Fake store front made at MSCA</p>
+                                            <a target="_blank" href="https://walrus-dog.github.io/Aditti/" className="site-link">_GitHub Environment</a>
+                                            <br />
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/Aditti" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* bloom site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Bloom</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/bloomsite.gif" />
+                                            </a>
+                                            <p className="site-desc">Site made for MSCA</p>
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/Bloom" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        {/* detoix site */}
+                                        <div className="site-div">
+                                            <h1 className="site-header">Detoix</h1>
+                                            <a href="">
+                                                <img className="img img-fluid dev-img" src="/media/webdevgifs/detoixsite.gif" />
+                                            </a>
+                                            <p className="site-desc">First big page at MSCA</p>
+                                            <a target="_blank" href="https://github.com/Walrus-Dog/Detroix-Bootstrap" className="site-link">_GitHub Page</a>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        <p>More coming soon! Will it be one of your projects?</p>
                                 </p>
                             </div>
                         </section>

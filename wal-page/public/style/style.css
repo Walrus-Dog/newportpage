@@ -467,3 +467,24 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--light-text);
     padding-left: 1rem;
 }
+
+/* .site-header {
+    color: var(--highlight);
+} */
+
+.site-desc {
+    border: 2px solid var(--gray-bg);
+    border-top: none;
+    font-size: calc((1 - 1) * 1.2vw + 1rem);
+}
+
+.site-link {
+    color: var(--light-text);
+    font-size: calc((1 - 1) * 1.2vw + 1rem);
+    text-decoration: none;
+}
+
+.site-link:hover {
+    color: var(--highlight);
+    text-decoration: underline;
+}
