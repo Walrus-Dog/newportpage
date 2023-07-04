@@ -155,6 +155,7 @@ font-family: 'Titillium Web', sans-serif;
 
 .socials-header {
     font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+    font-family: 'Titillium Web', sans-serif;
     padding-left: 0.5rem;
     padding-top: 1rem;
 }
@@ -256,7 +257,7 @@ font-family: 'Titillium Web', sans-serif;
 
 .about-info-div {
     width: calc((40 - 1) * 1.2vw + 1rem);
-    box-shadow: 10px 8px 0px #242424;
+    box-shadow: 10px 8px 0px var(--dark-bg);
 }
 
 .about-text {
@@ -280,19 +281,56 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--highlight5);
 }
 
-.art-nav-wrapper, .art-social-section, .art-colophon, .art-lang-sec {
-    box-shadow: 10px 8px 0px #a70021;
+.art-nav-wrapper, .art-social-section{
+    box-shadow: 10px 8px 0px var(--highlight5);
     border: var(--highlight3) 1px solid;
 }
 
+.art-colophon, .art-lang-sec {
+    border: var(--highlight3) 1px solid;
+    box-shadow: 5px 5px 0px var(--highlight5);
+}
+
+.art-header {
+    background-color: var(--light-text);
+    border: var(--highlight5) 1px solid;
+    box-shadow: 10px 8px 0px var(--highlight5);
+    color: var(--dark-text);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 11.3rem;
+    width: calc((14 - 1) * 1.2vw + 1rem);
+}
+
+.art-info {
+    width: calc((40 - 1) * 1.2vw + 1rem);
+    box-shadow: 10px 8px 0px var(--highlight5);
+}
+
+.art-text {
+    background-color: var(--light-text);
+    border: var(--highlight5) 1px solid;
+    color: var(--dark-text);
+    padding-left: 1rem;
+}
+
+.art-span a{
+    color: var(--highlight5);
+    text-decoration: none;
+}
+
+.art-span a:hover {
+    color: var(--highlight2);
+}
+
 .art-conts-div {
+    width: calc((40 - 1) * 1.2vw + 1rem);
     background-color: var(--light-text);
     box-shadow: 10px 8px 0px #a70021;
     border: var(--highlight5) 1px solid;
     margin-top: 2rem;
     padding-top: 2rem;
-    height: 440vh;
-    width: 60vw;
+    margin-bottom: 2rem;
 }
 
 .art-img-sep {
@@ -324,9 +362,14 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--highlight);
 }
 
-.games-nav-wrapper, .games-social-section, .games-colophon, .games-lang-sec {
+.games-nav-wrapper, .games-social-section {
     border: var(--highlight) 1px solid;
     box-shadow: 10px 8px 0px var(--highlight);
+}
+
+.games-colophon, .games-lang-sec {
+    border: var(--highlight) 1px solid;
+    box-shadow: 5px 5px 0px var(--highlight);
 }
 
 .games-header {
@@ -434,9 +477,16 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--highlight);
 }
 
-.webdev-nav-wrapper, .webdev-social-section, .webdev-colophon, .webdev-lang-sec {
+.webdev-nav-wrapper, .webdev-social-section {
     border: var(--light-text) 1px solid;
     box-shadow: 10px 8px 0px var(--light-text);
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+.webdev-colophon, .webdev-lang-sec {
+    border: var(--light-text) 1px solid;
+    box-shadow: 5px 5px 0px var(--light-text);
     background-color: var(--dark-bg);
     color: var(--light-text);
 }

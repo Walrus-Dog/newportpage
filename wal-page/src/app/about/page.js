@@ -1,10 +1,10 @@
 import React from "react";
-import Head from "../../../components/Head/Head"
-import LogoLanding from "../../../components/Nav Section/Logos/LogoLanding"
+import Head from "../../../components/Head/Head";
+import LogoLanding from "../../../components/Nav Section/Logos/LogoLanding";
 import NavAbout from "../../../components/Nav Section/Navs/NavAbout";
-import Social from "../../../components/Nav Section/Socials/Social"
-import Lang from "../../../components/Nav Section/Langs/Lang"
-import Colophon from "../../../components/Nav Section/Colophons/Colophon"
+import Social from "../../../components/Nav Section/Socials/Social";
+import LangAbout from "../../../components/Nav Section/Langs/LangAbout";
+import Colophon from "../../../components/Nav Section/Colophons/Colophon";
 
 export default function About() {
     return(
@@ -17,7 +17,7 @@ export default function About() {
                             <LogoLanding />
                             <NavAbout />
                             <Social />
-                            <Lang />
+                            <LangAbout />
                             <Colophon />
                     </div>
                     <div class="col-md-8">
@@ -30,7 +30,7 @@ export default function About() {
                             <div class="about-info-div">
                                 <p class="about-text">
                                     <p>Hello there!</p>
-                                    <p>My name is Patrick. I go by WalrusDog as my sort of brand and online handle. I am a creator, developer and an artist.</p>
+                                    <p>My name is Patrick. I go by WalrusDog as my sort of brand and online handle. I am a creator, developer and artist.</p>
                                     <p>I graduated from Mississippi Coding Academies in 2022 and hold a passion for web development/design, game design and art. I find I am better at creative things, but I’m not afraid to tackle something more technical. I am of the belief that anyone can learn anything and take that seriously when presented with challenges.</p>
                                     <p>Everything you see on this page as far as art was made by me! I have been learning digital painting and digital design so that I can make my own art and assets for my games.</p>
                                     <p>I am in the process of making my first full video game, check back here, on the game specific website, or my twitter for updates!</p>

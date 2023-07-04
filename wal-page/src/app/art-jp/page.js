@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "../../../components/Head/Head"
-import LogoArt from "../../../components/Nav Section/Logos/LogoArt";
-import NavArt from "../../../components/Nav Section/Navs/NavArt";
-import SocialArt from "../../../components/Nav Section/Socials/SocialArt";
+import LogoArtJp from "../../../components/Nav Sec Jp/Logos/LogoArtJp";
+import NavArtJp from "../../../components/Nav Sec Jp/Navs/NavArtJp";
+import SocialArtJp from "../../../components/Nav Sec Jp/Socials/SocialArtJp";
 import LangArt from "../../../components/Nav Section/Langs/LangArt"
-import ColophonArt from "../../../components/Nav Section/Colophons/ColophonArt";
+import ColophonArtJp from "../../../components/Nav Sec Jp/Colophons/ColophonArtJp";
 
-export default function Art() {
+export default function ArtJp() {
     return (
         <>
         <Head />
@@ -14,21 +14,21 @@ export default function Art() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <LogoArt />
-                        <NavArt />
-                        <SocialArt />
+                        <LogoArtJp />
+                        <NavArtJp />
+                        <SocialArtJp />
                         <LangArt />
-                        <ColophonArt />
+                        <ColophonArtJp />
                     </div>
                     <div class="col-md-8">
                         <div class="art-header">
                             <h1 class="art-header-text">
-                                art
+                                アート
                             </h1>
                         </div>
                         <div className="art-info">
                             <p className="art-text">
-                                This page features a selection of my art. Pieces I am generally happy with. If you'd like to see more, check out my <span className="art-span"><a target="_blank" href="https://twitter.com/WalrusDog">Twitter</a></span> for updates on my art!
+                                このページでは、私のアートの一部を紹介します。私が概ね満足している作品です。もっと見たい方は、私の<span className="art-span"><a target="_blank" href="https://twitter.com/WalrusDog">ツイッター</a></span>で最新情報をチェックしてください！
                             </p>
                         </div>
                         <div class="art-conts-div">
