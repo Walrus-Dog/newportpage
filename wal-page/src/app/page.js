@@ -10,6 +10,7 @@ export default function Home() {
     return (
     <>
     <Head />
+    <metadata />
     <main>
     <section className="landing-vid">
         <div className="container-fluid">

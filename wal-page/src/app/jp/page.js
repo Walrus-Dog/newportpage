@@ -3,7 +3,7 @@ import Head from "../../../components/Head/Head";
 import LogoJp from "../../../components/Nav Section/Logos/LogoJp";
 import NavJp from "../../../components/Nav Section/Navs/NavJp";
 import Social from "../../../components/Nav Section/Socials/Social";
-import Lang from "../../../components/Nav Section/Langs/Lang";
+import LangJp from "../../../components/Nav Section/Langs/LangJp";
 import Colophon from "../../../components/Nav Section/Colophons/Colophon";
 
 export default function Jp() {
@@ -17,7 +17,7 @@ export default function Jp() {
                             <LogoJp />
                             <NavJp />
                             <Social />
-                            <Lang />
+                            <LangJp />
                             <Colophon />
                         </div>
                         <div class="col-md-8">

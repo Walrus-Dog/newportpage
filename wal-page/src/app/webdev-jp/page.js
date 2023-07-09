@@ -1,10 +1,10 @@
 import React from "react";
 import Head from "../../../components/Head/Head";
-import LogoWebdev from "../../../components/Nav Section/Logos/LogoWebdev";
-import NavWebdev from "../../../components/Nav Section/Navs/NavWebdev";
-import SocialWebdev from "../../../components/Nav Section/Socials/SocialWebdev";
+import LogoWebdevJp from "../../../components/Nav Sec Jp/Logos/LogoWebdevJp";
+import NavWebdevJp from "../../../components/Nav Sec Jp/Navs/NavWebdevJp";
+import SocialWebdevJp from "../../../components/Nav Sec Jp/Socials/SocailWebdevJp";
 import LangWebdev from "../../../components/Nav Section/Langs/LangWebdev";
-import ColophonWebdev from "../../../components/Nav Section/Colophons/ColophonWebdev";
+import ColophonWebdevJp from "../../../components/Nav Sec Jp/Colophons/ColophonWebdevJp";
 
 export default function WebDev() {
     return(
@@ -14,11 +14,11 @@ export default function WebDev() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <LogoWebdev />
-                        <NavWebdev />
-                        <SocialWebdev />
+                        <LogoWebdevJp />
+                        <NavWebdevJp />
+                        <SocialWebdevJp />
                         <LangWebdev />
-                        <ColophonWebdev />
+                        <ColophonWebdevJp />
                     </div>
                     <div class="col-md-8">
                         <section class="webdev-info">

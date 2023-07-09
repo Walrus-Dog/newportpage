@@ -1,4 +1,5 @@
 import 'public/style/style.css';
+import Head from '../../components/Head/Head';
 import { Inter } from 'next/font/google';
 
 //const inter = Inter({ subsets: ['latin'] })
@@ -6,6 +7,13 @@ import { Inter } from 'next/font/google';
 export const metadata = {
   title: 'WalrusDog',
   description: 'WalDog Page',
+  icons: {
+    icon: {
+      rel: "icon",
+      sizes: "32x32", 
+      url: "/favicon.ico",
+    }
+  }
 }
 
 export default function RootLayout({ children }) {

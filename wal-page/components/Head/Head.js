@@ -1,4 +1,5 @@
 import React from "react";
+import { metadata } from "@/app/layout";
 
 export default function Head() {
     return (
@@ -10,7 +11,7 @@ export default function Head() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Righteous&family=Roboto+Mono&family=Teko:wght@300&display=swap" rel="stylesheet" />
-        <link rel="icon" href="../icon.png" />
+        <link type="icon" href="../../public/favicon.ico"/>
         <title>WalrusDog</title>
     </head>
     )
