@@ -5,6 +5,7 @@ import NavArt from "../../../components/Nav Section/Navs/NavArt";
 import SocialArt from "../../../components/Nav Section/Socials/SocialArt";
 import LangArt from "../../../components/Nav Section/Langs/LangArt"
 import ColophonArt from "../../../components/Nav Section/Colophons/ColophonArt";
+import Script from "next/script";
 
 export default function Art() {
     return (
@@ -34,41 +35,41 @@ export default function Art() {
                         <div class="art-conts-div">
                             <div class="art-img-sep d-flex">
                                 <a class="art-img-tag" href="">
-                                    <img class="img img-fluid art-img" src="/media/drawdinner.png" alt="" />
+                                    <img id="artImg" class="img img-fluid art-img" src="/media/drawdinner.png" alt="" />
                                 </a>
                             </div>
                             <div class="art-img-row d-flex">
                                 <div class="art-img-sep">
                                     <a class="art-img-tag" href="">
-                                        <img class="img img-fluid art-img mike-drawing" src="/media/drawmiketrain.png" alt="" />
+                                        <img id="artImg" class="img img-fluid art-img mike-drawing" src="/media/drawmiketrain.png" alt="" />
                                     </a>
                                 </div>
                                 <div class="art-img-sep">
                                     <a class="art-img-tag" href="">
-                                        <img class="img img-fluid art-img" src="/media/drawbanki.png" alt="" />
+                                        <img id="artImg" class="img img-fluid art-img" src="/media/drawbanki.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                             <div class="art-img-sep d-flex">
                                 <a class="art-img-tag" href="">
-                                    <img class="img img-fluid art-img" src="/media/drawpole.png" alt="" />
+                                    <img id="artImg" class="img img-fluid art-img" src="/media/drawpole.png" alt="" />
                                 </a>
                             </div>
                             <div class="art-img-row d-flex">
                                 <div class="art-img-sep">
                                     <a class="art-img-tag" href="">
-                                        <img class="img img-fluid art-img" src="/media/drawbleachers.png" alt="" />
+                                        <img id="artImg" class="img img-fluid art-img" src="/media/drawbleachers.png" alt="" />
                                     </a>
                                 </div>
                                 <div class="art-img-sep d-flex">
                                     <a class="art-img-tag" href="">
-                                        <img class="img img-fluid art-img" src="/media/drawsneaky.png" alt="" />
+                                        <img id="artImg" class="img img-fluid art-img" src="/media/drawsneaky.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                             <div class="art-img-sep d-flex">
                                 <a class="art-img-tag" href="">
-                                    <img class="img img-fluid art-img" src="/media/drawstairs.png" alt="" />
+                                    <img onClick="enlargeImg" id="artImg" class="img img-fluid art-img" src="/media/drawstairs.png" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -76,6 +77,9 @@ export default function Art() {
                 </div>
             </div>
         </section>
+        <Script>
+        
+        </Script>
         </>
     )
 }
