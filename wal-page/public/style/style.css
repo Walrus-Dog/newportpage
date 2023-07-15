@@ -342,11 +342,69 @@ font-family: 'Titillium Web', sans-serif;
 
 .art-img {
     border: 1px solid var(--darker-bg);
+    cursor: pointer;
+}
+
+.art-img:hover {
+    opacity: 0.9;
+}
+
+.art-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background-color: #242424;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.art-modal-img {
+    margin: auto;
+    display: block;
+    width: 80vw;
+    max-width: 120vw;
+    animation-name: zoom;
+    animation-duration: 0.7s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+/* will probably need to edit this */
+.art-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: var(--highlight);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.art-close:hover, .art-close:focus {
+    color: var(--gray-bg);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .art-modal-img {
+        width: 90vw;
+    }
 }
 
 .mike-drawing {
     width: 112vw;
 }
+
+
 
 /* games page */
 .games {
@@ -516,6 +574,14 @@ font-family: 'Titillium Web', sans-serif;
     border: var(--light-text) 1px solid;
     color: var(--light-text);
     padding-left: 1rem;
+}
+
+.dev-img {
+    cursor: pointer;
+}
+
+.dev-img:hover {
+    opacity: 0.9;
 }
 
 /* .site-header {
