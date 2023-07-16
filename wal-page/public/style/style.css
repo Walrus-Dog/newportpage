@@ -83,12 +83,10 @@ font-family: 'Titillium Web', sans-serif;
     position: fixed;
 }
 
-/* .logo-img-header-landing {
-    height: 22vh;
-    padding-top: 0.4%;
-    padding-bottom: 0.5%;
-    position: fixed;
-} */
+.landing-logo {
+    animation-duration: 1.5s;
+    animation-name: move1;
+}
 
 /* logo stuff */
 
@@ -128,6 +126,11 @@ font-family: 'Titillium Web', sans-serif;
     position: fixed;
 }
 
+.nav-landing {
+    animation-duration: 1.5s;
+    animation-name: move1;
+}
+
 .nav-wrapper-inner a {
     color: var(--dark-text);
     display: block;
@@ -151,6 +154,11 @@ font-family: 'Titillium Web', sans-serif;
     top: 27.5rem;
     width: calc((14 - 1) * 1.2vw + 1rem);
     position: fixed;
+}
+
+.social-landing {
+    animation-duration: 1.5s;
+    animation-name: move1;
 }
 
 .socials-header {
@@ -191,6 +199,11 @@ font-family: 'Titillium Web', sans-serif;
     position: fixed;
 }
 
+.landing-lang {
+    animation-duration: 1.5s;
+    animation-name: move1;
+}
+
 .flag-css {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -212,6 +225,11 @@ font-family: 'Titillium Web', sans-serif;
     position: fixed;
 }
 
+.colo-landing {
+    animation-duration: 1.5s;
+    animation-name: move1;
+}
+
 .copy-text {
     font-size: calc((0.8 - 1) * 1.2vw + 1rem);
     padding: 0.2rem;
@@ -228,6 +246,18 @@ font-family: 'Titillium Web', sans-serif;
 
 .walrus a:hover {
     color: var(--highlight3);
+}
+
+@keyframes move1 {
+    from {
+        transform: translateX(-60rem);
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateX(0rem);
+        opacity: 100%;
+    }
 }
 
 /* about page */
@@ -347,34 +377,6 @@ font-family: 'Titillium Web', sans-serif;
 
 .art-img:hover {
     opacity: 0.9;
-}
-
-.art-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100%;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: auto;
-    background-color: #242424;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.art-modal-img {
-    margin: auto;
-    display: block;
-    width: 80vw;
-    max-width: 120vw;
-    animation-name: zoom;
-    animation-duration: 0.7s;
-}
-
-@keyframes zoom {
-    from {transform: scale(0);}
-    to {transform: scale(1);}
 }
 
 /* will probably need to edit this */

@@ -1,10 +1,10 @@
 import React from "react";
 import Head from "../../../components/Head/Head"
-import LogoLandingJp from "../../../components/Nav Sec Jp/Logos/LogoLandingJp";
+import LogoAboutJp from "../../../components/Nav Sec Jp/Logos/LogoAboutJp";
 import NavAboutJp from "../../../components/Nav Sec Jp/Navs/NavAboutJp";
-import SocialJp from "../../../components/Nav Sec Jp/Socials/SocialJp";
+import SocialAboutJp from "../../../components/Nav Sec Jp/Socials/SocialAboutJp";
 import LangAbout from "../../../components/Nav Section/Langs/LangAbout"
-import ColophonJp from "../../../components/Nav Sec Jp/Colophons/ColophonJp";
+import ColophonAboutJp from "../../../components/Nav Sec Jp/Colophons/ColophoneAboutJp";
 
 export default function AboutJp() {
     return(
@@ -14,11 +14,11 @@ export default function AboutJp() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                            <LogoLandingJp />
+                            <LogoAboutJp />
                             <NavAboutJp />
-                            <SocialJp />
+                            <SocialAboutJp />
                             <LangAbout />
-                            <ColophonJp />
+                            <ColophonAboutJp />
                     </div>
                     <div class="col-md-8">
                         <section class="about-info">

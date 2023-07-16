@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Social() {
+export default function SocialAbout() {
     return (
-        <section class="social-section social-landing">
+        <section class="social-section">
             <div class="socials">
                 <h2 class="socials-header">
                     | @contact

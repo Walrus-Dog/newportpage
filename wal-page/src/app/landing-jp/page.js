@@ -1,6 +1,6 @@
 import React from "react"
 import Head from "../../../components/Head/Head"
-import LogoLanding from "../../../components/Nav Section/Logos/LogoLanding"
+import LogoLandingJp from "../../../components/Nav Sec Jp/Logos/LogoLandingJp"
 import NavLandingJp from "../../../components/Nav Sec Jp/Navs/NavLandingJp"
 import SocialJp from "../../../components/Nav Sec Jp/Socials/SocialJp"
 import Lang from "../../../components/Nav Section/Langs/Lang"
@@ -14,7 +14,7 @@ export default function LandingJp() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-4 col-sm-12">
-                        <LogoLanding />
+                        <LogoLandingJp />
                         <NavLandingJp />
                         <SocialJp />
                         <Lang />

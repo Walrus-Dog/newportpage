@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function NavLanding() {
     return (
-        <section className="nav-section">
+        <section className="nav-section nav-landing">
             <div className="nav-wrapper">
                 <div className="nav-wrapper-inner">
                     <Link className="landing-link nav-link1" href="/about">| about</Link>

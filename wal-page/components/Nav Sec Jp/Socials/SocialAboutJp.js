@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Social() {
+export default function SocialAboutJp() {
     return (
-        <section class="social-section social-landing">
+        <section class="social-section">
             <div class="socials">
                 <h2 class="socials-header">
-                    | @contact
+                    | @連絡
                 </h2>
                 <div class="nav social-icons">
                     <a href="https://twitter.com/WalrusDog" target="_blank">

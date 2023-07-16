@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SocialJp() {
     return (
-        <section class="social-section">
+        <section class="social-section social-landing">
             <div class="socials">
                 <h2 class="socials-header">
                     | @連絡

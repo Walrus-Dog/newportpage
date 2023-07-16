@@ -2,9 +2,9 @@ import React from "react";
 import Head from "../../../components/Head/Head";
 import LogoJp from "../../../components/Nav Section/Logos/LogoJp";
 import NavJp from "../../../components/Nav Section/Navs/NavJp";
-import Social from "../../../components/Nav Section/Socials/Social";
+import SocialAbout from "../../../components/Nav Section/Socials/SocialAbout";
 import LangJp from "../../../components/Nav Section/Langs/LangJp";
-import Colophon from "../../../components/Nav Section/Colophons/Colophon";
+import ColophonAbout from "../../../components/Nav Section/Colophons/ColophonAbout";
 
 export default function Jp() {
     return(
@@ -16,9 +16,9 @@ export default function Jp() {
                         <div class="col-md-4 col-sm-12">
                             <LogoJp />
                             <NavJp />
-                            <Social />
+                            <SocialAbout />
                             <LangJp />
-                            <Colophon />
+                            <ColophonAbout />
                         </div>
                         <div class="col-md-8">
                             <section class="jp-info">

@@ -1,10 +1,10 @@
 import React from "react";
 import Head from "../../../components/Head/Head";
-import LogoLanding from "../../../components/Nav Section/Logos/LogoLanding";
+import LogoAbout from "../../../components/Nav Section/Logos/LogoAbout";
 import NavAbout from "../../../components/Nav Section/Navs/NavAbout";
-import Social from "../../../components/Nav Section/Socials/Social";
+import SocialAbout from "../../../components/Nav Section/Socials/SocialAbout";
 import LangAbout from "../../../components/Nav Section/Langs/LangAbout";
-import Colophon from "../../../components/Nav Section/Colophons/Colophon";
+import ColophonAbout from "../../../components/Nav Section/Colophons/ColophonAbout";
 
 export default function About() {
     return(
@@ -14,11 +14,11 @@ export default function About() {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                            <LogoLanding />
+                            <LogoAbout />
                             <NavAbout />
-                            <Social />
+                            <SocialAbout />
                             <LangAbout />
-                            <Colophon />
+                            <ColophonAbout />
                     </div>
                     <div class="col-md-8">
                         <section class="about-info">
