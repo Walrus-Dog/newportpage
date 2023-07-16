@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import { useState } from "react";
 import Head from "../../../components/Head/Head";
