@@ -1,5 +1,4 @@
 import React from "react";
-import { metadata } from "@/app/layout";
 
 export default function Head() {
     return (
