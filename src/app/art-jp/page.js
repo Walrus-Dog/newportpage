@@ -161,6 +161,9 @@ export default function ArtJp() {
                                 />
                             </div>
                         </div>
+                        <div id="nonoDoodleDiv" className="nono-doodle-div">
+                            <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle nono-doodle2" src="/media/nonodoodles/drawnonodoodlesite2.png" />
+                        </div>
                     </div>
                 </div>
             </div>

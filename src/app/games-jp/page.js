@@ -58,6 +58,9 @@ export default function GamesJp() {
                                 <p>現時点ではコンセプトアートはない</p>
                             </p>
                         </div>
+                        <div id="nonoDoodleDiv" className="nono-doodle-div">
+                            <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle nono-doodle3" src="/media/nonodoodles/drawnonodoodlesite3.png" />
+                        </div>
                     </section>
                 </div>
                 </div>

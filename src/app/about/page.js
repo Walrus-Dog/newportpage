@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Head from "../../../components/Head/Head";
 import LogoAbout from "../../../components/Nav Section/Logos/LogoAbout";
@@ -7,6 +8,7 @@ import LangAbout from "../../../components/Nav Section/Langs/LangAbout";
 import ColophonAbout from "../../../components/Nav Section/Colophons/ColophonAbout";
 
 export default function About() {
+
     return(
         <>
         <Head />
@@ -20,7 +22,7 @@ export default function About() {
                             <LangAbout />
                             <ColophonAbout />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 about-div">
                         <section class="about-info">
                             <div class="about-header">
                                 <h1 class="about-header-text">
@@ -36,6 +38,9 @@ export default function About() {
                                     <p>I am in the process of making my first full video game, check back here, on the game specific website, or my twitter for updates!</p>
                                     <p>If you would like more information, please send me an email, or message on social media. Hope we can make something cool together! </p>
                                 </p>
+                            </div>
+                            <div id="nonoDoodleDiv" className="nono-doodle-div">
+                                <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle" src="/media/nonodoodles/drawnonodoodlesite1.png" />
                             </div>
                         </section>
                     </div>

@@ -44,8 +44,9 @@ export default function WebDev() {
                                 <p class="webdev-text">
                                         <p>Web dev is where one of my passions lies! Though I see myself as better at design than the more technical aspects, I can learn anything I need to make the site as good as it can be. Here on this page will be some of the sites I made before and after MSCA. The differences between them should hopefully serve as a timeline of skill progression. </p>
                                         <p>(Some of the websites featured are not active)</p>
-                                        <br />
-                                        <br />
+                                </p>
+                            </div>
+                            <div className="webdev-sites">
                                         {/* ep site */}
                                         <div className="site-div">
                                             <h1 className="site-header">Exit Plan</h1>
@@ -245,7 +246,9 @@ export default function WebDev() {
                                         <p>(Light box used is FsLightbox)</p>
                                         <br />
                                         <p>More coming soon! Will it be one of your projects?</p>
-                                </p>
+                            </div>
+                            <div id="nonoDoodleDiv" className="nono-doodle-div">
+                                <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle" src="/media/nonodoodles/drawnonodoodlesite5.png" />
                             </div>
                         </section>
                     </div>

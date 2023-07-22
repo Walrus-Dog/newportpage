@@ -41,6 +41,9 @@ export default function AboutJp() {
                                     <p>もっと詳しい情報を知りたい方は、メールかソーシャルメディアでメッセージを送ってください。一緒にクールなものを作れることを願っています！</p>
                                 </p>
                             </div>
+                            <div id="nonoDoodleDiv" className="nono-doodle-div">
+                                <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle" src="/media/nonodoodles/drawnonodoodlesite1.png" />
+                            </div>
                         </section>
                     </div>
                 </div>

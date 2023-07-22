@@ -46,6 +46,10 @@ export default function WebDev() {
                                         <p>(一部のウェブサイトは休止中)</p>
                                         <br />
                                         <br />
+                                </p>
+                            </div>
+                            <div className="webdev-sites">
+
                                         {/* ep site */}
                                         <div className="site-div">
                                             <h1 className="site-header">Exit Plan</h1>
@@ -241,7 +245,9 @@ export default function WebDev() {
                                         <br />
                                         <br />
                                         <p>もっと近々！それはあなたのプロジェクトですか？</p>
-                                </p>
+                            </div>
+                            <div id="nonoDoodleDiv" className="nono-doodle-div">
+                                <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle" src="/media/nonodoodles/drawnonodoodlesite5.png" />
                             </div>
                         </section>
                     </div>

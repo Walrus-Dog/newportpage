@@ -40,6 +40,9 @@ export default function JpJp() {
                                         
                                     </p>
                                 </div>
+                                <div id="nonoDoodleDiv" className="nono-doodle-div">
+                                    <img id="nonoDoodle" className="d-sm-none d-md-block nono-doodle1 nono-doodle nono-doodle4" src="/media/nonodoodles/drawnonodoodlesite4.png" />
+                                </div>
                             </section>
                         </div>
                     </div>

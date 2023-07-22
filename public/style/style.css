@@ -288,6 +288,8 @@ font-family: 'Titillium Web', sans-serif;
 .about-info-div {
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px var(--dark-bg);
+    position: relative;
+    z-index: 2;
 }
 
 .about-text {
@@ -295,6 +297,14 @@ font-family: 'Titillium Web', sans-serif;
     border: var(--darker-bg) 1px solid;
     color: var(--dark-text);
     padding-left: 1rem;
+}
+
+.nono-doodle {
+    position: fixed;
+    top: 0.5rem;
+    right: 2rem;
+    width: 45vw;
+    z-index: 1;
 }
 
 /* art page */
@@ -335,6 +345,8 @@ font-family: 'Titillium Web', sans-serif;
 .art-info {
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px var(--highlight5);
+    position: relative;
+    z-index: 2;
 }
 
 .art-text {
@@ -361,6 +373,8 @@ font-family: 'Titillium Web', sans-serif;
     margin-top: 2rem;
     padding-top: 2rem;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
 }
 
 .art-img-sep {
@@ -379,34 +393,13 @@ font-family: 'Titillium Web', sans-serif;
     opacity: 0.9;
 }
 
-/* will probably need to edit this */
-.art-close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: var(--highlight);
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-.art-close:hover, .art-close:focus {
-    color: var(--gray-bg);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 700px) {
-    .art-modal-img {
-        width: 90vw;
-    }
-}
-
 .mike-drawing {
     width: 112vw;
 }
 
-
+.nono-doodle2, .nono-doodle3 {
+    transform: scaleX(-1);
+}
 
 /* games page */
 .games {
@@ -448,6 +441,8 @@ font-family: 'Titillium Web', sans-serif;
     box-shadow: 10px 8px 0px var(--highlight);
     overflow: scroll;
     overflow-x: hidden;
+    position: relative;
+    z-index: 2;
 }
 
 .games-text {
@@ -514,6 +509,8 @@ font-family: 'Titillium Web', sans-serif;
 .jp-info-div {
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px #242424;
+    position: relative;
+    z-index: 2;
 }
 
 .jp-text {
@@ -521,6 +518,12 @@ font-family: 'Titillium Web', sans-serif;
     border: var(--darker-bg) 1px solid;
     color: var(--dark-text);
     padding-left: 1rem;
+}
+
+.nono-doodle4 {
+    top: 0.5rem;
+    right: 0rem;
+    transform: scaleX(-1);
 }
 
 /* webdev page */
@@ -569,6 +572,8 @@ font-family: 'Titillium Web', sans-serif;
 .webdev-info-div {
     width: calc((40 - 1) * 1.2vw + 1rem);
     box-shadow: 10px 8px 0px var(--light-text);
+    position: relative;
+    z-index: 2;
 }
 
 .webdev-text {
@@ -578,6 +583,20 @@ font-family: 'Titillium Web', sans-serif;
     padding-left: 1rem;
 }
 
+.webdev-sites {
+    width: calc((40 - 1) * 1.2vw + 1rem);
+    color: var(--light-text);
+    background-color: var(--dark-bg);
+    box-shadow: 10px 8px 0px #e2e2e2;
+    border: var(--light-text) 1px solid;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
 .dev-img {
     cursor: pointer;
 }
@@ -585,10 +604,6 @@ font-family: 'Titillium Web', sans-serif;
 .dev-img:hover {
     opacity: 0.9;
 }
-
-/* .site-header {
-    color: var(--highlight);
-} */
 
 .site-desc {
     border: 2px solid var(--gray-bg);
