@@ -15,15 +15,15 @@ export default function Home() {
     <section className="landing-vid">
         <div className="container-fluid">
             <div className="row">
-                <video className="bg-vid" playsinline autoPlay loop muted poster="/media/WDblack.png" src="/media/landingvideo.mp4"></video>
+                <video className="bg-vid" playsinline autoPlay loop muted poster="/media/WDblack.png" src="/media/landingvideo6.mp4"></video>
                 <div class="vid-text">
                     <a href="landing.html">
-                        <img className="logo-img-header" src="/media/drawlogoloop1.gif" alt="nonologo" />
+                        <img className="logo-img-header-landing" src="/media/drawlogoloop1.gif" alt="nonologo" />
                     </a>
                     <h1 className="lander-text-header">walrusdog</h1>
                     <p className="lander-text-desc">art | game design | web dev</p>
                     <p className="lander-text-desc">let's get started, yeah?</p>
-                    <Link className="enter-text" href="/landing">ENTER</Link>
+                    <Link className="enter-text" href="/landing">- enter -</Link>
                 </div>
             </div>
         </div>

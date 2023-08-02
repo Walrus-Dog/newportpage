@@ -52,7 +52,7 @@ font-family: 'Titillium Web', sans-serif;
     top: 0;
     left: 0;
     filter: opacity(30%);
-    transform: scale(1.4);
+    transform: scale(1.1);
 }
 
 .vid-text {
@@ -65,13 +65,17 @@ font-family: 'Titillium Web', sans-serif;
     justify-content: center;
     padding-top: 15vh;
     font-size: 2.5rem;
+    animation-duration: 3.0s;
+    animation-name: landinganim;
 }
 
 .lander-text-header {
-    color: var(--highlight3);
-    font-family: 'Titillium Web', sans-serif;
+    color: var(--highlight);
+    font-weight: 700;
     font-size: 4.5rem;
     padding-bottom: 1rem;
+    animation-duration: 3.0s;
+    animation-name: landinganim;
 }
 
 /* logo stuff */
@@ -81,6 +85,14 @@ font-family: 'Titillium Web', sans-serif;
     padding-top: 1rem;
     padding-bottom: 1.5%;
     position: fixed;
+}
+
+.logo-img-header-landing {
+    height: 22vh;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    animation-duration: 3.0s;
+    animation-name: landinganim;
 }
 
 .landing-logo {
@@ -93,13 +105,25 @@ font-family: 'Titillium Web', sans-serif;
 .enter-text {
     color: var(--highlight);
     font-family: 'Titillium Web', sans-serif;
-    font-size: 5rem;
+    font-size: 4.5rem;
     padding-top: 1rem;
     text-decoration: none;
+    animation-duration: 3s;
+    animation-name: landinganim;
 }
 
 .enter-text:hover {
     color: var(--highlight2);
+}
+
+@keyframes landinganim {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
 }
 
 /* landing/home page */
