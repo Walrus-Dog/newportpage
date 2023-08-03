@@ -45,6 +45,7 @@ font-family: 'Titillium Web', sans-serif;
 /* video page */
 
 .bg-vid {
+    background-color: var(--gray-bg);
     object-fit: cover;
     width: 100vw;
     height: 100vh;

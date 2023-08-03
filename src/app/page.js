@@ -15,7 +15,7 @@ export default function Home() {
     <section className="landing-vid">
         <div className="container-fluid">
             <div className="row">
-                <video className="bg-vid" playsinline autoPlay loop muted poster="/media/loading.gif" src="/media/landingvideo6.mp4"></video>
+                <video className="bg-vid" playsinline autoPlay loop muted poster="/media/drawlogoloop1.gif" src="/media/landingvideo6.mp4"></video>
                 <div class="vid-text">
                     <a href="landing.html">
                         <img className="logo-img-header-landing" src="/media/drawlogoloop1.gif" alt="nonologo" />
