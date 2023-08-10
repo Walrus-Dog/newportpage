@@ -131,9 +131,10 @@ font-family: 'Titillium Web', sans-serif;
 
 .landing {
     background-image: url(../media/drawpole.png);
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background-position: 15%;
+    background-size: 100%;
     background-attachment: fixed;
     font-size: calc((1.4 - 1) * 1.2vw + 1rem);
 }
@@ -646,3 +647,97 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--highlight);
     text-decoration: underline;
 }
+
+/* !nav! break point for STANDARD sizes */
+@media screen and (min-width: 60em) {
+    .logo-img-header {
+        height: 22vh;
+    }
+
+    .nav-wrapper {
+        top: 12rem;
+        width: 12vw;
+        font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+    }
+
+    .social-section {
+        top: 27.5rem;
+        width: calc((14 - 1) * 1.2vw + 1rem);
+    }
+
+    .socials-header {
+        font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+    }
+
+    .lang-select {
+        top: 36.3rem;
+        width: 5vw;
+    }
+
+    .flag-css {
+        font-size: 1.5rem;
+    }
+
+    .colophon {
+        top: 40.7rem;
+        width: 15vw;
+    }
+
+    .copy-text {
+        font-size: calc((0.8 - 1) * 1.2vw + 1rem);
+        padding: 0.2rem;
+    }
+}
+
+/* !nav! break point for 1440p monitors */
+@media screen and (min-width: 122em) {
+    .logo-img-header {
+        height: 24vh;
+    }
+
+    .nav-wrapper {
+        top: 20.5rem;
+        width: 15vw;
+        font-size: calc((1.7 - 1) * 1.2vw + 1rem);
+    }
+
+    .social-section {
+        top: 42rem;
+        width: calc((17 - 1) * 1.2vw + 1rem);
+    }
+
+    .socials-header {
+        font-size: calc((1.7 - 1) * 1.2vw + 1rem);
+    }
+    
+    .social-icons {
+        font-size: 0.8rem;
+    }
+
+    .lang-select {
+        top: 53.4rem;
+        width: 8vw;
+    }
+
+    .flag-css {
+        font-size: 2.5rem;
+    }
+
+    .colophon {
+        top: 59.5rem;
+        width: 17vw;
+    }
+
+    .copy-text {
+        font-size: calc((1 - 1) * 1.2vw + 1rem);
+        padding: 0.4rem;
+    }
+
+    .about {
+        height: 100vh;
+    }
+
+    .jp {
+        height: 100vh;
+    }
+} 
