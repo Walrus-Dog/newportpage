@@ -689,6 +689,64 @@ font-family: 'Titillium Web', sans-serif;
     }
 }
 
+/* @media screen and (min-width: 242em) {
+    .logo-img-header {
+        height: 26vh;
+    }
+
+    .nav-wrapper {
+        top: 33.5rem;
+        width: 15vw;
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+
+    .social-section {
+        top: 66rem;
+        width: calc((17 - 1) * 1.2vw + 1rem);
+    }
+
+    .socials-header {
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+    
+    .social-icons {
+        font-size: 1.8rem;
+    }
+
+    .lang-select {
+        top: 82rem;
+        width: 8vw;
+    }
+
+    .flag-css {
+        font-size: 4.5rem;
+    }
+
+    .colophon {
+        top: 92.5rem;
+        width: 17vw;
+    }
+
+    .copy-text {
+        font-size: calc((1.23 - 1) * 1.2vw + 1rem);
+        padding: 0.4rem;
+    }
+
+    .about, .jp {
+        height: 100vh;
+        font-size: calc((1.8 - 1) * 1.2vw + 1rem);
+    }
+
+    .about-header-text, .art-header-text, .games-header-text, .jp-header-text, .webdev-header-text {
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+
+    .art, .games, .webdev, .site-header, .site-desc, .site-link {
+        font-size: calc((1.8 - 1) * 1.2vw + 1rem);
+    }
+
+} */
+
 /* !nav! break point for 1440p monitors */
 @media screen and (min-width: 122em) {
     .logo-img-header {
@@ -741,3 +799,62 @@ font-family: 'Titillium Web', sans-serif;
         height: 100vh;
     }
 } 
+
+/* !nav! break point for 4k monitors */
+@media screen and (min-width: 240em) {
+    .logo-img-header {
+        height: 26vh;
+    }
+
+    .nav-wrapper {
+        top: 33.5rem;
+        width: 15vw;
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+
+    .social-section {
+        top: 66rem;
+        width: calc((17 - 1) * 1.2vw + 1rem);
+    }
+
+    .socials-header {
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+    
+    .social-icons {
+        font-size: 1.8rem;
+    }
+
+    .lang-select {
+        top: 82rem;
+        width: 8vw;
+    }
+
+    .flag-css {
+        font-size: 4.5rem;
+    }
+
+    .colophon {
+        top: 92.5rem;
+        width: 17vw;
+    }
+
+    .copy-text {
+        font-size: calc((1.23 - 1) * 1.2vw + 1rem);
+        padding: 0.4rem;
+    }
+
+    .about, .jp {
+        height: 100vh;
+        font-size: calc((1.8 - 1) * 1.2vw + 1rem);
+    }
+
+    .about-header-text, .art-header-text, .games-header-text, .jp-header-text, .webdev-header-text {
+        font-size: calc((1.9 - 1) * 1.2vw + 1rem);
+    }
+
+    .art, .games, .webdev, .site-header, .site-desc, .site-link {
+        font-size: calc((1.8 - 1) * 1.2vw + 1rem);
+    }
+
+}
