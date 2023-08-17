@@ -33,6 +33,13 @@ export default function GamesJp() {
                                 <br />
                                 <p>これらのプロジェクトの詳細については、私にご連絡ください！</p>
                                 <br />
+                                <span className="gametitle">-別のどこ-</span>
+                                <p>雰囲気たっぷりの一人称視点パズルゲーム。不気味なパズルゲームで、プレイヤーを世界に吸い込み、探索の醍醐味を味わわせよう。</p>
+                                <p>資料請求も可能！</p>
+                                <p>ゲームのウェブサイト： 該当なし</p>
+                                <p className="concept-title">コンセプトアート：</p>
+                                <img className="img img-fluid games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
+                                <br />
                                 <span className="gametitle">-ラメン大冒険-</span>
                                 <p>ビジュアルノベル要素のあるRPG風。ラーメンを買いに行くためのベタな冒険！</p>
                                 <p>資料請求も可能！</p>
@@ -50,12 +57,6 @@ export default function GamesJp() {
                                 <a href="">
                                     <img className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
                                 </a>
-                                <br />
-                                <span className="gametitle">-別のどこ-</span>
-                                <p>雰囲気たっぷりの一人称視点パズルゲーム。不気味なパズルゲームで、プレイヤーを世界に吸い込み、探索の醍醐味を味わわせよう。</p>
-                                <p>資料請求も可能！</p>
-                                <p>ゲームのウェブサイト： 該当なし</p>
-                                <p>現時点ではコンセプトアートはない</p>
                             </p>
                         </div>
                         <div id="nonoDoodleDiv" className="nono-doodle-div">
