@@ -473,7 +473,7 @@ font-family: 'Titillium Web', sans-serif;
 
 .games-text {
     background-color: var(--light-text);
-    border: var(--darker-bg) 1px solid;
+    border: var(--highlight) 1px solid;
     color: var(--dark-text);
     padding-left: 1rem;
 }
@@ -494,8 +494,16 @@ font-family: 'Titillium Web', sans-serif;
     width: 20vw;
 }
 
+.games-img:hover {
+    cursor: pointer;
+}
+
 .games-img2 {
     padding-bottom: 2rem;
+}
+
+.games-img2:hover {
+    cursor: pointer;
 }
 
 .concept-title {

@@ -1,12 +1,21 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Head from "../../../components/Head/Head";
 import LogoGames from "../../../components/Nav Section/Logos/LogoGames";
 import NavGames from "../../../components/Nav Section/Navs/NavGames";
 import SocialGames from "../../../components/Nav Section/Socials/SocialGames";
 import LangGames from "../../../components/Nav Section/Langs/LangGames";
 import ColophonGames from "../../../components/Nav Section/Colophons/ColophonGames";
+import FsLightbox from "fslightbox-react";
 
 export default function Games() {
+
+    const [setoggler1, seToggler1] = useState(false);
+    const [rqtoggler1, rqToggler1] = useState(false);
+    const [rqtoggler2, rqToggler2] = useState(false);
+    const [rqtoggler3, rqToggler3] = useState(false);
+    const [rqtoggler4, rqToggler4] = useState(false);
+
     return(
         <>
         <Head />
@@ -37,25 +46,71 @@ export default function Games() {
                                 <p>Documentation available on request!</p>
                                 <p>Game website: N/A</p>
                                 <p className="concept-title">Concept art:</p>
-                                <img className="img img-fluid games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
+                                <div className="game-img-holder">
+                                    <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={setoggler1}
+                                        sources={[
+                                            '/media/games-art/drawseconcept1.png',
+                                        ]}
+                                    />
+                                </div>
                                 < br />
                                 <span className="gametitle">-Ramen Quest-</span>
                                 <p>RPG like, with Visual Novel elements. A goofy adventure to go and buy some more ramen!</p>
                                 <p>Documentation available on request!</p>
                                 <p>Game website: N/A</p>
                                 <p className="concept-title">Concept art:</p>
-                                <a href="">
-                                    <img className="img img-fluid games-img" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
-                                </a>
-                                <a href="">
-                                    <img className="img img-fluid games-img" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
-                                </a>
-                                <a href="">
-                                    <img className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
-                                </a>
-                                <a href="">
-                                    <img className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
-                                </a>
+                                <div className="game-img-holder">
+                                    <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid games-img" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler1}
+                                        sources={[
+                                            '/media/games-art/drawlogo4.png',
+                                            '/media/games-art/rqmapearly.png',
+                                            '/media/games-art/drawnonodoodles.png',
+                                            '/media/games-art/drawnonodoodles2.png',
+                                        ]}
+                                    />
+
+                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid games-img" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler2}
+                                        sources={[
+                                            '/media/games-art/rqmapearly.png',
+                                            '/media/games-art/drawnonodoodles.png',
+                                            '/media/games-art/drawnonodoodles2.png',
+                                            '/media/games-art/drawlogo4.png',
+                                        ]}
+                                    />
+                                    
+                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler3}
+                                        sources={[
+                                            '/media/games-art/drawnonodoodles.png',
+                                            '/media/games-art/drawnonodoodles2.png',
+                                            '/media/games-art/drawlogo4.png',
+                                            '/media/games-art/rqmapearly.png',
+                                        ]}
+                                    />
+
+                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler4}
+                                        sources={[
+                                            '/media/games-art/drawnonodoodles2.png',
+                                            '/media/games-art/drawlogo4.png',
+                                            '/media/games-art/rqmapearly.png',
+                                            '/media/games-art/drawnonodoodles.png',
+                                        ]}
+                                    />
+                                </div>
                             </p>
                         </div>
                         <div id="nonoDoodleDiv" className="nono-doodle-div">
