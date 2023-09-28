@@ -487,23 +487,48 @@ font-family: 'Titillium Web', sans-serif;
     color: #ff5100;
 }
 
-.games-img {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 2rem;
+
+.se-games-img {
+    width: 90vw;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-top: 1px var(--highlight) solid;
+    border-left: 1px var(--highlight) solid;
+    border-bottom: 1px var(--highlight) solid;
+}
+
+.se-games-img:hover {
+    border-top: 1px var(--highlight3) solid;
+    border-left: 1px var(--highlight3) solid;
+    border-bottom: 1px var(--highlight3) solid;
+}
+
+.rq-games-img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin: 2rem;
     width: 20vw;
-}
-
-.games-img:hover {
     cursor: pointer;
+    border: 1px var(--highlight) solid;
+    margin-left: 0.5rem;
 }
 
-.games-img2 {
-    padding-bottom: 2rem;
-}
-
-.games-img2:hover {
+.rq-games-img2 {
+    margin-bottom: 2rem;
     cursor: pointer;
+    border-top: 1px var(--highlight) solid;
+    border-left: 1px var(--highlight) solid;
+    border-bottom: 1px var(--highlight) solid;
+}
+
+.rq-games-img:hover {
+    border: 1px var(--highlight3) solid;
+}
+
+.rq-games-img2:hover {
+    border-top: 1px var(--highlight3) solid;
+    border-left: 1px var(--highlight3) solid;
+    border-bottom: 1px var(--highlight3) solid;
 }
 
 .concept-title {
@@ -656,7 +681,7 @@ font-family: 'Titillium Web', sans-serif;
     text-decoration: underline;
 }
 
-/* !nav! break point for STANDARD sizes */
+/* !nav! break point for 1080p sizes */
 @media screen and (min-width: 60em) {
     .logo-img-header {
         height: 22vh;

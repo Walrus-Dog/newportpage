@@ -11,6 +11,8 @@ import FsLightbox from "fslightbox-react";
 export default function Games() {
 
     const [setoggler1, seToggler1] = useState(false);
+    const [setoggler2, seToggler2] = useState(false);
+    const [setoggler3, seToggler3] = useState(false);
     const [rqtoggler1, rqToggler1] = useState(false);
     const [rqtoggler2, rqToggler2] = useState(false);
     const [rqtoggler3, rqToggler3] = useState(false);
@@ -46,24 +48,54 @@ export default function Games() {
                                 <p>Documentation available on request!</p>
                                 <p>Game website: N/A</p>
                                 <p className="concept-title">Concept art:</p>
-                                <div className="game-img-holder">
-                                    <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
-                                    <FsLightbox
-                                        exitFullscreenOnClose={true}
-                                        toggler={setoggler1}
-                                        sources={[
-                                            '/media/games-art/drawseconcept1.png',
-                                        ]}
-                                    />
+                                {/* se images */}
+                                <div className="se-images-div">
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid se-games-img" src="/media/games-art/drawseconcept2withnono.png" alt="SE first concept"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler1}
+                                            sources={[
+                                                '/media/games-art/drawseconcept2withnono.png',
+                                                '/media/games-art/drawsenonoref1.png',
+                                                '/media/games-art/drawseconcept1.png',
+                                            ]}
+                                        />
+                                    </div>
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler2 (!setoggler2)} className="img img-fluid se-games-img" src="/media/games-art/drawsenonoref1.png" alt="SE first concept"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler2}
+                                            sources={[
+                                                '/media/games-art/drawsenonoref1.png',
+                                                '/media/games-art/drawseconcept1.png',
+                                                '/media/games-art/drawseconcept2withnono.png',
+                                            ]}
+                                        />
+                                    </div>
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler3 (!setoggler3)} className="img img-fluid se-games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler3}
+                                            sources={[
+                                                '/media/games-art/drawseconcept1.png',
+                                                '/media/games-art/drawseconcept2withnono.png',
+                                                '/media/games-art/drawsenonoref1.png',
+                                            ]}
+                                        />
+                                    </div>
                                 </div>
                                 < br />
+                                {/* RQ STARTS HERE */}
                                 <span className="gametitle">-Ramen Quest-</span>
                                 <p>RPG like, with Visual Novel elements. A goofy adventure to go and buy some more ramen!</p>
                                 <p>Documentation available on request!</p>
                                 <p>Game website: N/A</p>
                                 <p className="concept-title">Concept art:</p>
                                 <div className="game-img-holder">
-                                    <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid games-img" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
+                                    <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid rq-games-img" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler1}
@@ -75,7 +107,7 @@ export default function Games() {
                                         ]}
                                     />
 
-                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid games-img" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
+                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid rq-games-img" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler2}
@@ -87,7 +119,7 @@ export default function Games() {
                                         ]}
                                     />
                                     
-                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
+                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid rq-games-img2" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler3}
@@ -99,7 +131,7 @@ export default function Games() {
                                         ]}
                                     />
 
-                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
+                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid rq-games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler4}

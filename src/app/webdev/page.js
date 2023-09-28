@@ -65,7 +65,7 @@ export default function WebDev() {
                                                     '/media/webdevgifs/detoixsite.gif',
                                                 ]}
                                             />
-                                            <p className="site-desc">Mock up site for my game studio</p>
+                                            <p className="site-desc">Mock up site for a game studio (no longer in use)</p>
                                             <a target="_blank" href="https://github.com/Walrus-Dog/epwebsite" className="site-link">_GitHub Page</a>
                                         </div>
                                         <br />
