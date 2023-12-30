@@ -5,6 +5,7 @@ import NavLandingJp from "../../../components/Nav Sec Jp/Navs/NavLandingJp"
 import SocialJp from "../../../components/Nav Sec Jp/Socials/SocialJp"
 import Lang from "../../../components/Nav Section/Langs/Lang"
 import ColophonJp from "../../../components/Nav Sec Jp/Colophons/ColophonJp"
+import LandingSmallJp from "../../../components/NavSecSmallJp/HeadersJp/LandingPageSmallJp"
 
 export default function LandingJp() {
     return (
@@ -19,6 +20,15 @@ export default function LandingJp() {
                         <SocialJp />
                         <Lang />
                         <ColophonJp />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#home" className="landing-small">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="landing-nav-small col-md-12">
+                        <LandingSmallJp />
                     </div>
                 </div>
             </div>
