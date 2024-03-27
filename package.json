@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
     "fslightbox-react": "^1.7.6",
     "lightbox2": "^2.11.4",
     "next": "13.4.4",
