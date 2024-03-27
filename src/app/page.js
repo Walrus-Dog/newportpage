@@ -15,7 +15,7 @@ export default function Home() {
                 <section className="landing-vid">
                     <div className="container-fluid">
                         <div className="row">
-                            <video className="bg-vid" playsinline autoPlay loop muted poster="/media/drawlogoloop1.gif" src="/media/landingvid/landingvidsmallersize.mp4"></video>
+                            <video className="bg-vid" playsinline autoPlay loop muted poster="/media/landingvid/drawlogoloop1.gif" src="/media/landingvid/landingvidsmallersize.mp4"></video>
                             <div class="vid-text">
                                 <h1 className="lander-text-header">walrusdog</h1>
                                 <p className="lander-text-desc">art | game design | web dev</p>
@@ -28,7 +28,7 @@ export default function Home() {
                 <section className="landing-vid-small">
                     <div className="container-fluid">
                         <div className="row">
-                            <video className="bg-vid-small" playsinline autoPlay loop muted poster="/media/drawlogoloop1.gif" src="/media/landingvid/landingvidsmallersize.mp4"></video>
+                            <video className="bg-vid-small" playsinline autoPlay loop muted poster="/media/landingvid/drawlogoloop1.gif" src="/media/landingvid/landingvidsmallersize.mp4"></video>
                             <div class="vid-text">
                                 <h1 className="lander-text-header-small">walrusdog</h1>
                                 <p className="lander-text-desc-small">| art |</p>
