@@ -42,49 +42,47 @@ export default function GamesJp() {
                         </div>
                         <div class="games-info-div">
                             <p class="games-text">
-                                <p>デザインは私の主な情熱のひとつだ。レベルやエンカウンターなど、プレイヤーが生き抜くための体験を構築することすべてが好きだ。これらのプロジェクトの構築には非常に長い時間がかかることが証明されているが、私はまだそれらを紙の上に持っている。以下は製作中の2つのゲームだが、少なくとも7つのゲームが準備中なので安心してほしい。</p>
-                                <br />
-                                <p>これらのプロジェクトの詳細については、私にご連絡ください！</p>
+                                <p>ここ何年もの間、私はレベルやエンカウンターなど、プレイヤーが生き抜くための経験を構築することに関するあらゆるものを作るのが好きだった。これらのプロジェクトの構築には非常に長い時間がかかったことが証明されているが、私はここに大まかな技術デモと多くのコンセプトを披露している。確かに、何時間も座って議論するには十分だ。これらのプロジェクトは現在保留中だが、長くは続かないだろう！</p>
                                 <br />
                                 <span className="gametitle">-別のどこ-</span>
-                                <p>雰囲気たっぷりの一人称視点パズルゲーム。不気味なパズルゲームで、プレイヤーを世界に吸い込み、探索の醍醐味を味わわせよう。</p>
+                                <p>別のどこは、不自然なほど陽気な街の朽ち果てた廃墟を舞台にした、雰囲気のある一人称視点のパズル探索ゲームだ。影と音があなたを追いかけながら、この「青い空洞」の中心部へと脱出を目指す。</p>
                                 <p>資料請求も可能！</p>
                                 <p>ゲームのウェブサイト： 該当なし</p>
                                 <p className="concept-title">コンセプトアート：</p>
                                 <div className="se-images-div">
                                     <div className="game-img-holder">
-                                        <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid se-games-img" src="/media/games-art/drawseconcept2withnono.png" alt="SE first concept"/>
+                                        <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid se-games-img" src="/media/games/thumbnails/drawseconcept2smaller.png" alt="se city concept"/>
                                         <FsLightbox
                                             exitFullscreenOnClose={true}
                                             toggler={setoggler1}
                                             sources={[
-                                                '/media/games-art/drawseconcept2withnono.png',
-                                                '/media/games-art/drawsenonoref1.png',
-                                                '/media/games-art/drawseconcept1.png',
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
+                                                '/media/games/fullsize/drawsenonoref1.png',
+                                                '/media/games/fullsize/drawseconcept1.png',
                                             ]}
                                         />
                                     </div>
                                     <div className="game-img-holder">
-                                        <img onClick={()=> seToggler2 (!setoggler2)} className="img img-fluid se-games-img" src="/media/games-art/drawsenonoref1.png" alt="SE first concept"/>
+                                        <img onClick={()=> seToggler2 (!setoggler2)} className="img img-fluid se-games-img" src="/media/games/thumbnails/drawsenonoref1smaller.png" alt="nono concept 1"/>
                                         <FsLightbox
                                             exitFullscreenOnClose={true}
                                             toggler={setoggler2}
                                             sources={[
-                                                '/media/games-art/drawsenonoref1.png',
-                                                '/media/games-art/drawseconcept1.png',
-                                                '/media/games-art/drawseconcept2withnono.png',
+                                                '/media/games/fullsize/drawsenonoref1.png',
+                                                '/media/games/fullsize/drawseconcept1.png',
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
                                             ]}
                                         />
                                     </div>
                                     <div className="game-img-holder">
-                                        <img onClick={()=> seToggler3 (!setoggler3)} className="img img-fluid se-games-img" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
+                                        <img onClick={()=> seToggler3 (!setoggler3)} className="img img-fluid se-games-img" src="/media/games/fullsize/drawseconcept1.png" alt="SE first concept"/>
                                         <FsLightbox
                                             exitFullscreenOnClose={true}
                                             toggler={setoggler3}
                                             sources={[
-                                                '/media/games-art/drawseconcept1.png',
-                                                '/media/games-art/drawseconcept2withnono.png',
-                                                '/media/games-art/drawsenonoref1.png',
+                                                '/media/games/fullsize/drawseconcept1.png',
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
+                                                '/media/games/fullsize/drawsenonoref1.png',
                                             ]}
                                         />
                                     </div>
@@ -96,51 +94,51 @@ export default function GamesJp() {
                                 <p>ゲームのウェブサイト： 該当なし</p>
                                 <p className="concept-title">コンセプトアート：</p>
                                 <div className="game-img-holder">
-                                <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid rq-games-img" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
+                                    <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid rq-games-img" src="/media/games/fullsize/drawlogo4.png" alt="Early logo concept"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler1}
                                         sources={[
-                                            '/media/games-art/drawlogo4.png',
-                                            '/media/games-art/rqmapearly.png',
-                                            '/media/games-art/drawnonodoodles.png',
-                                            '/media/games-art/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
                                         ]}
                                     />
 
-                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid rq-games-img" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
+                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid rq-games-img" src="/media/games/fullsize/rqmapearly.png" alt="Early map design concept"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler2}
                                         sources={[
-                                            '/media/games-art/rqmapearly.png',
-                                            '/media/games-art/drawnonodoodles.png',
-                                            '/media/games-art/drawnonodoodles2.png',
-                                            '/media/games-art/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
                                         ]}
                                     />
                                     
-                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid rq-games-img2" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
+                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid rq-games-img2" src="/media/games/thumbnails/drawnonodoodlessmaller.png" alt="Loading screen doodle"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler3}
                                         sources={[
-                                            '/media/games-art/drawnonodoodles.png',
-                                            '/media/games-art/drawnonodoodles2.png',
-                                            '/media/games-art/drawlogo4.png',
-                                            '/media/games-art/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
                                         ]}
                                     />
 
-                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid rq-games-img2" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
+                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid rq-games-img2" src="/media/games/thumbnails/drawnonodoodles2smaller.png" alt="Loading screen doodle"/>
                                     <FsLightbox
                                         exitFullscreenOnClose={true}
                                         toggler={rqtoggler4}
                                         sources={[
-                                            '/media/games-art/drawnonodoodles2.png',
-                                            '/media/games-art/drawlogo4.png',
-                                            '/media/games-art/rqmapearly.png',
-                                            '/media/games-art/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
                                         ]}
                                     />
                                 </div>
@@ -167,54 +165,52 @@ export default function GamesJp() {
                                 </div>
                                 <div class="games-info-div-small">
                                     <p class="games-text-small">
-                                    <p>デザインは私の主な情熱のひとつだ。レベルやエンカウンターなど、プレイヤーが生き抜くための体験を構築することすべてが好きだ。これらのプロジェクトの構築には非常に長い時間がかかることが証明されているが、私はまだそれらを紙の上に持っている。以下は製作中の2つのゲームだが、少なくとも7つのゲームが準備中なので安心してほしい。</p>
-                                    <br />
-                                    <p>これらのプロジェクトの詳細については、私にご連絡ください！</p>
+                                    <p>ここ何年もの間、私はレベルやエンカウンターなど、プレイヤーが生き抜くための経験を構築することに関するあらゆるものを作るのが好きだった。これらのプロジェクトの構築には非常に長い時間がかかったことが証明されているが、私はここに大まかな技術デモと多くのコンセプトを披露している。確かに、何時間も座って議論するには十分だ。これらのプロジェクトは現在保留中だが、長くは続かないだろう！</p>
                                     <br />
                                     <span className="gametitle">-別のどこ-</span>
-                                    <p>雰囲気たっぷりの一人称視点パズルゲーム。不気味なパズルゲームで、プレイヤーを世界に吸い込み、探索の醍醐味を味わわせよう。</p>
+                                    <p>別のどこは、不自然なほど陽気な街の朽ち果てた廃墟を舞台にした、雰囲気のある一人称視点のパズル探索ゲームだ。影と音があなたを追いかけながら、この「青い空洞」の中心部へと脱出を目指す。</p>
                                     <p>資料請求も可能！</p>
                                     <p>ゲームのウェブサイト： 該当なし</p>
                                     <p className="concept-title">コンセプトアート：</p>
                                         {/* se images */}
                                         <div className="se-images-div">
-                                            <div className="game-img-holder">
-                                                <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid se-games-img game-img-small" src="/media/games-art/drawseconcept2withnono.png" alt="SE first concept"/>
-                                                <FsLightbox
-                                                    exitFullscreenOnClose={true}
-                                                    toggler={setoggler1}
-                                                    sources={[
-                                                        '/media/games-art/drawseconcept2withnono.png',
-                                                        '/media/games-art/drawsenonoref1.png',
-                                                        '/media/games-art/drawseconcept1.png',
-                                                    ]}
-                                                />
-                                            </div>
-                                            <div className="game-img-holder">
-                                                <img onClick={()=> seToggler2 (!setoggler2)} className="img img-fluid se-games-img game-img-small" src="/media/games-art/drawsenonoref1.png" alt="SE first concept"/>
-                                                <FsLightbox
-                                                    exitFullscreenOnClose={true}
-                                                    toggler={setoggler2}
-                                                    sources={[
-                                                        '/media/games-art/drawsenonoref1.png',
-                                                        '/media/games-art/drawseconcept1.png',
-                                                        '/media/games-art/drawseconcept2withnono.png',
-                                                    ]}
-                                                />
-                                            </div>
-                                            <div className="game-img-holder">
-                                                <img onClick={()=> seToggler3 (!setoggler3)} className="img img-fluid se-games-img game-img-small" src="/media/games-art/drawseconcept1.png" alt="SE first concept"/>
-                                                <FsLightbox
-                                                    exitFullscreenOnClose={true}
-                                                    toggler={setoggler3}
-                                                    sources={[
-                                                        '/media/games-art/drawseconcept1.png',
-                                                        '/media/games-art/drawseconcept2withnono.png',
-                                                        '/media/games-art/drawsenonoref1.png',
-                                                    ]}
-                                                />
-                                            </div>
-                                        </div>
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler1 (!setoggler1)} className="img img-fluid se-games-img" src="/media/games/thumbnails/drawseconcept2smaller.png" alt="se city concept"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler1}
+                                            sources={[
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
+                                                '/media/games/fullsize/drawsenonoref1.png',
+                                                '/media/games/fullsize/drawseconcept1.png',
+                                            ]}
+                                        />
+                                    </div>
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler2 (!setoggler2)} className="img img-fluid se-games-img" src="/media/games/thumbnails/drawsenonoref1smaller.png" alt="nono concept 1"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler2}
+                                            sources={[
+                                                '/media/games/fullsize/drawsenonoref1.png',
+                                                '/media/games/fullsize/drawseconcept1.png',
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
+                                            ]}
+                                        />
+                                    </div>
+                                    <div className="game-img-holder">
+                                        <img onClick={()=> seToggler3 (!setoggler3)} className="img img-fluid se-games-img" src="/media/games/fullsize/drawseconcept1.png" alt="SE first concept"/>
+                                        <FsLightbox
+                                            exitFullscreenOnClose={true}
+                                            toggler={setoggler3}
+                                            sources={[
+                                                '/media/games/fullsize/drawseconcept1.png',
+                                                '/media/games/fullsize/drawseconcept2withnono.png',
+                                                '/media/games/fullsize/drawsenonoref1.png',
+                                            ]}
+                                        />
+                                    </div>
+                                </div>
                                         < br />
                                         {/* RQ STARTS HERE */}
                                         <span className="gametitle">-ラメン大冒険-</span>
@@ -222,55 +218,55 @@ export default function GamesJp() {
                                     <p>資料請求も可能！</p>
                                     <p>ゲームのウェブサイト： 該当なし</p>
                                     <p className="concept-title">コンセプトアート：</p>
-                                        <div className="game-img-holder">
-                                            <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid rq-games-img2 game-img-small" src="/media/games-art/drawlogo4.png" alt="Early logo concept"/>
-                                            <FsLightbox
-                                                exitFullscreenOnClose={true}
-                                                toggler={rqtoggler1}
-                                                sources={[
-                                                    '/media/games-art/drawlogo4.png',
-                                                    '/media/games-art/rqmapearly.png',
-                                                    '/media/games-art/drawnonodoodles.png',
-                                                    '/media/games-art/drawnonodoodles2.png',
-                                                ]}
-                                            />
+                                    <div className="game-img-holder">
+                                    <img onClick={()=> rqToggler1 (!rqtoggler1)} className="img img-fluid rq-games-img" src="/media/games/fullsize/drawlogo4.png" alt="Early logo concept"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler1}
+                                        sources={[
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                        ]}
+                                    />
 
-                                            <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid rq-games-img2 game-img-small" src="/media/games-art/rqmapearly.png" alt="Early map design concept"/>
-                                            <FsLightbox
-                                                exitFullscreenOnClose={true}
-                                                toggler={rqtoggler2}
-                                                sources={[
-                                                    '/media/games-art/rqmapearly.png',
-                                                    '/media/games-art/drawnonodoodles.png',
-                                                    '/media/games-art/drawnonodoodles2.png',
-                                                    '/media/games-art/drawlogo4.png',
-                                                ]}
-                                            />
-                                            
-                                            <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid rq-games-img2 game-img-small" src="/media/games-art/drawnonodoodles.png" alt="Loading screen doodle"/>
-                                            <FsLightbox
-                                                exitFullscreenOnClose={true}
-                                                toggler={rqtoggler3}
-                                                sources={[
-                                                    '/media/games-art/drawnonodoodles.png',
-                                                    '/media/games-art/drawnonodoodles2.png',
-                                                    '/media/games-art/drawlogo4.png',
-                                                    '/media/games-art/rqmapearly.png',
-                                                ]}
-                                            />
+                                    <img onClick={()=> rqToggler2 (!rqtoggler2)} className="img img-fluid rq-games-img" src="/media/games/fullsize/rqmapearly.png" alt="Early map design concept"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler2}
+                                        sources={[
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                        ]}
+                                    />
+                                    
+                                    <img onClick={()=> rqToggler3 (!rqtoggler3)} className="img img-fluid rq-games-img2" src="/media/games/thumbnails/drawnonodoodlessmaller.png" alt="Loading screen doodle"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler3}
+                                        sources={[
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                        ]}
+                                    />
 
-                                            <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid rq-games-img2 game-img-small" src="/media/games-art/drawnonodoodles2.png" alt="Loading screen doodle"/>
-                                            <FsLightbox
-                                                exitFullscreenOnClose={true}
-                                                toggler={rqtoggler4}
-                                                sources={[
-                                                    '/media/games-art/drawnonodoodles2.png',
-                                                    '/media/games-art/drawlogo4.png',
-                                                    '/media/games-art/rqmapearly.png',
-                                                    '/media/games-art/drawnonodoodles.png',
-                                                ]}
-                                            />
-                                        </div>
+                                    <img onClick={()=> rqToggler4 (!rqtoggler4)} className="img img-fluid rq-games-img2" src="/media/games/thumbnails/drawnonodoodles2smaller.png" alt="Loading screen doodle"/>
+                                    <FsLightbox
+                                        exitFullscreenOnClose={true}
+                                        toggler={rqtoggler4}
+                                        sources={[
+                                            '/media/games/fullsize/drawnonodoodles2.png',
+                                            '/media/games/fullsize/drawlogo4.png',
+                                            '/media/games/fullsize/rqmapearly.png',
+                                            '/media/games/fullsize/drawnonodoodles.png',
+                                        ]}
+                                    />
+                                </div>
                                     </p>
                                 </div>
                             </section>

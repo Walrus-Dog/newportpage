@@ -41,7 +41,7 @@ export default function ColophonGamesSmallJp() {
             </div>
             <div className="copyright-small-wrapper d-flex justify-content-center">
                 <div class="copyright-small">
-                    <h3 class="copy-text">| 2023 <span class="copysign">&copy;</span><span class="walrus-games"><a href="this will go to the site itself haha!">walrusdog</a></span> | 版権所有 |</h3>
+                    <h3 class="copy-text">| 2024 <span class="copysign">&copy;</span><span class="walrus-games"><a href="this will go to the site itself haha!">walrusdog</a></span> | 版権所有 |</h3>
                 </div>
             </div>
         </section>

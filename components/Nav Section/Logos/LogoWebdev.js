@@ -5,7 +5,7 @@ export default function LogoWebdev() {
     return (
         <section className="logo-section">
             <Link href="/landing">
-                <img className="img logo-img-header" src="/media/WDoffwhite.png" alt="nonologo" />
+                <img className="img logo-img-header" src="/media/logos/WDoffwhite.png" alt="nonologo" />
             </Link>
         </section>
     )

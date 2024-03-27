@@ -34,11 +34,10 @@ export default function About() {
                             <div class="about-info-div">
                                 <p class="about-text">
                                     <p>Hello there!</p>
-                                    <p>My name is Patrick. I go by WalrusDog online. I am a creator, developer and artist.</p>
-                                    <p>I graduated from Mississippi Coding Academies in 2022 and hold a passion for web development/design, game design and art. I find I am better at creative things, but I’m not afraid to tackle something more technical. I am of the belief that anyone can learn anything and take that seriously when presented with challenges.</p>
-                                    <p>Everything you see on this page as far as art was made by me! I have been learning digital painting and digital design so that I can make my own art and assets for my games.</p>
-                                    <p>I am in the process of making my first full video game, check back here, on the game specific website, or my twitter for updates!</p>
-                                    <p>If you would like more information, please send me an email, or message on social media. Hope we can make something cool together! </p>
+                                    <p>My name is Patrick, also known as WalrusDog online. I am a web developer dipping my toes into the game dev and digital art scene. Despite my growing skillset, I am a ravenous learner and I tend to think my creative side helps me out even in my technical work.</p>
+                                    <p>I graduated from Mississippi Coding Academies in 2022 and I am very passionate about many different types of projects. I am currently proficient in HTML, CSS, JS, NEXT, React, C#, Unity, Python, MySQL, and I am willing to learn wnew and exciting toolsets to finish many types of projects</p>
+                                    <p>I created this website to showcase my various interests including examples of my art, various game and web dev projects, and even my journey in becoming a fluent Japanese speaker. I hope you enjoy exploring my adventures as much as I have enjoyed creating them.</p>
+                                    <p>If you are interested in contacting me about anything you see on my website, if you are interested in working on a project together, or interested in hiring me, please reach me by email at <span className="about-email"><a href="">walrusdog@gmail.com</a></span>.</p>
                                 </p>
                             </div>
                             <div id="nonoDoodleDiv" className="nono-doodle-div">
@@ -62,12 +61,11 @@ export default function About() {
                         <div class="about-info-div-small">
                             <p class="about-text">
                                 <p>Hello there!</p>
-                                <p>My name is Patrick. I go by WalrusDog as my sort of brand and online handle. I am a creator, developer and artist.</p>
-                                <p>I graduated from Mississippi Coding Academies in 2022 and hold a passion for web development/design, game design and art. I find I am better at creative things, but I’m not afraid to tackle something more technical. I am of the belief that anyone can learn anything and take that seriously when presented with challenges.</p>
-                                <p>Everything you see on this page as far as art was made by me! I have been learning digital painting and digital design so that I can make my own art and assets for my games.</p>
-                                <p>I am in the process of making my first full video game, check back here, on the game specific website, or my twitter for updates!</p>
-                                <p>If you would like more information, please send me an email, or message on social media. Hope we can make something cool together!</p>
-                                </p>
+                                <p>My name is Patrick, also known as WalrusDog online. I am a web developer dipping my toes into the game dev and digital art scene. Despite my growing skillset, I am a ravenous learner and I tend to think my creative side helps me out even in my technical work.</p>
+                                <p>I graduated from Mississippi Coding Academies in 2022 and I am very passionate about many different types of projects. I am currently proficient in HTML, CSS, JS, NEXT, React, C#, Unity, Python, MySQL, and I am willing to learn new and exciting toolsets to finish many types of projects</p>
+                                <p>I created this website to showcase my various interests including examples of my art, various game and web dev projects, and even my journey in becoming a fluent Japanese speaker. I hope you enjoy exploring my adventures as much as I have enjoyed creating them.</p>
+                                <p>If you are interested in contacting me about anything you see on my website, if you are interested in working on a project together, or interested in hiring me, please reach me by email at <span className="about-email"><a href="">walrusdog@gmail.com</a></span>.</p>
+                            </p>
                         </div>
                     </section>
                 </div>

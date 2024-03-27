@@ -8,7 +8,7 @@ export default function LandingSmall() {
                 <div className="row">
                     <section className="logo-section-small d-flex justify-content-center">
                         <Link href="/landing">
-                            <img className="img logo-img-header-small landing-logo-small" src="/media/WDblack.png" alt="nonologo" />
+                            <img className="img logo-img-header-small landing-logo-small" src="/media/logos/WDblack.png" alt="nonologo" />
                         </Link>
                     </section>
                     <section className="nav-section-small d-flex justify-content-center">

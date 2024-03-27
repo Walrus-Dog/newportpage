@@ -22,7 +22,7 @@ export default function HeaderGamesSmall() {
                             <div className="col-4">
                                 <section className="logo-section-small d-flex">
                                     <Link href="/landing">
-                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/WDorange.png" alt="nonologo" />
+                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/logos/WDorange.png" alt="nonologo" />
                                     </Link>
                                 </section>
                             </div>

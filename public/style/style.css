@@ -130,7 +130,7 @@ font-family: 'Titillium Web', sans-serif;
 /* landing/home page */
 
 .landing {
-    background-image: url(../media/drawpole.png);
+    background-image: url(../media/pagebgs/landingbg.png);
     width: 99vw;
     height: 100vh;
     background-position: 15%;
@@ -288,7 +288,7 @@ font-family: 'Titillium Web', sans-serif;
 
 /* about page */
 .about {
-    background-image: url(../media/drawdinner.png);
+    background-image: url(../media/pagebgs/aboutbg.png);
     width: 99vw;
     background-position: 15%;
     background-attachment: fixed;
@@ -335,7 +335,7 @@ font-family: 'Titillium Web', sans-serif;
 
 /* art page */
 .art {
-    background-image: url(../media/drawstairs.png);
+    background-image: url(../media/pagebgs/artbg.png);
     width: 99vw;
     background-position: 15%;
     background-attachment: fixed;
@@ -430,7 +430,7 @@ font-family: 'Titillium Web', sans-serif;
 /* games page */
 .games {
     width: 99vw;
-    background-image: url(../media/gamestempbg.jpg);
+    background-image: url(../media/pagebgs/gamestempbg.jpg);
     background-size: 100%;
     background-position: 15%;
     background-attachment: fixed;
@@ -543,7 +543,8 @@ font-family: 'Titillium Web', sans-serif;
 /* jp page */
 .jp {
     width: 99vw;
-    background-image: url(../media/jptempbg.jpg);
+    height: 100vh;
+    background-image: url(../media//pagebgs/jptempbg.jpg);
     background-size: 100%;
     background-position: 15%;
     background-attachment: fixed;
@@ -588,7 +589,7 @@ font-family: 'Titillium Web', sans-serif;
 /* webdev page */
 .webdev {
     width: 99vw;
-    background-image: url(../media/webdevtempbg.jpg);
+    background-image: url(../media/pagebgs/webdevtempbg.jpg);
     background-position: 15%;
     background-attachment: fixed;
     background-size: 100%;
@@ -693,7 +694,7 @@ font-family: 'Titillium Web', sans-serif;
     }
 
     .landing-small {
-        background-image: url(../media/drawpole.png);
+        background-image: url(../media/pagebgs/landingbg.png);
         background-position: 40%;
         background-size: 450%;
         height: 100vh;
@@ -863,7 +864,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .about-small {
         display: block;
-        background-image: url(../media/drawdinner.png);
+        background-image: url(../media/pagebgs/aboutbg.png);
         background-position: 21%;
         background-attachment: fixed;
         background-size: 550%;
@@ -882,6 +883,15 @@ font-family: 'Titillium Web', sans-serif;
         padding-top: 2rem;
     }
 
+    .about-email a{
+        text-decoration: none;
+        color: var(--highlight);
+    }
+
+    .about-email a:hover {
+        color: var(--highlight3);
+    }
+
     /* art page */
 
     .art {
@@ -890,7 +900,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .art-small {
         display: block;
-        background-image: url(../media/drawstairs.png);
+        background-image: url(../media/pagebgs/artbg.png);
         background-position: 60%;
         background-attachment: fixed;
         background-size: 370%;
@@ -947,7 +957,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .games-small {
         display: block;
-        background-image: url(../media/gamestempbg.jpg);
+        background-image: url(../media/pagebgs/gamestempbg.jpg);
         background-position: 45%;
         background-attachment: fixed;
         background-size: 370%;
@@ -999,7 +1009,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .jp-small {
         display: block;
-        background-image: url(../media/jptempbg.jpg);
+        background-image: url(../media/pagebgs/jptempbg.jpg);
         background-position: 50%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1046,7 +1056,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .webdev-small {
         display: block;
-        background-image: url(../media/webdevtempbg.jpg);
+        background-image: url(../media/pagebgs/webdevtempbg.jpg);
         background-position: 50%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1154,7 +1164,7 @@ font-family: 'Titillium Web', sans-serif;
     }
 
     .landing-small {
-        background-image: url(../media/drawpole.png);
+        background-image: url(../media/pagebgs/landingbg.png);
         background-position: 40%;
         background-size: 450%;
         height: 100vh;
@@ -1317,6 +1327,14 @@ font-family: 'Titillium Web', sans-serif;
         top: 56px;
     }
 
+    .nav-link1-small:hover {
+        color: var(--highlight);
+    }
+    
+    .nav-link2-small:hover {
+        color: var(--highlight3);
+    }
+
     /* about page */
     .about {
         display: none;
@@ -1324,7 +1342,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .about-small {
         display: block;
-        background-image: url(../media/drawdinner.png);
+        background-image: url(../media/pagebgs/aboutbg.png);
         background-position: 21%;
         background-attachment: fixed;
         background-size: 550%;
@@ -1351,7 +1369,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .art-small {
         display: block;
-        background-image: url(../media/drawstairs.png);
+        background-image: url(../media/pagebgs/artbg.png);
         background-position: 60%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1408,7 +1426,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .games-small {
         display: block;
-        background-image: url(../media/gamestempbg.jpg);
+        background-image: url(../media/pagebgs/gamestempbg.jpg);
         background-position: 45%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1460,7 +1478,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .jp-small {
         display: block;
-        background-image: url(../media/jptempbg.jpg);
+        background-image: url(../media/pagebgs/jptempbg.jpg);
         background-position: 50%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1507,7 +1525,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .webdev-small {
         display: block;
-        background-image: url(../media/webdevtempbg.jpg);
+        background-image: url(../media/pagebgs/webdevtempbg.jpg);
         background-position: 50%;
         background-attachment: fixed;
         background-size: 370%;

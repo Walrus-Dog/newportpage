@@ -5,7 +5,7 @@ export default function LogoArtJp() {
     return (
         <section className="logo-section">
             <Link href="/landing-jp">
-                <img className="img logo-img-header" src="/media/WDdarkerred.png" alt="nonologo" />
+                <img className="img logo-img-header" src="/media/logos/WDdarkerred.png" alt="nonologo" />
             </Link>
         </section>
     )

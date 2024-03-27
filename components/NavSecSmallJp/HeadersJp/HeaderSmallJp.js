@@ -22,7 +22,7 @@ export default function HeaderSmallJp() {
                             <div className="col-4">
                                 <section className="logo-section-small d-flex">
                                     <Link href="/landing-jp">
-                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/WDblack.png" alt="nonologo" />
+                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/logos/WDblack.png" alt="nonologo" />
                                     </Link>
                                 </section>
                             </div>

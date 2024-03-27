@@ -22,7 +22,7 @@ export default function ArtHeaderSmall() {
                             <div className="col-4">
                                 <section className="logo-section-small d-flex">
                                     <Link href="/landing">
-                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/WDdarkerred.png" alt="nonologo" />
+                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/logos/WDdarkerred.png" alt="nonologo" />
                                     </Link>
                                 </section>
                             </div>

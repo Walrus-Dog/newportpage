@@ -22,7 +22,7 @@ export default function HeaderWebDevSmall() {
                             <div className="col-4">
                                 <section className="logo-section-small d-flex">
                                     <Link href="/landing">
-                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/WDoffwhite.png" alt="nonologo" />
+                                        <img className="img logo-img-header-small-about landing-logo-small" src="/media/logos/WDoffwhite.png" alt="nonologo" />
                                     </Link>
                                 </section>
                             </div>

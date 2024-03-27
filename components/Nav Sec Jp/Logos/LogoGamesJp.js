@@ -5,7 +5,7 @@ export default function LogoGamesJp() {
     return (
         <section className="logo-section">
             <Link href="/landing-jp">
-                <img className="img logo-img-header" src="/media/WDorange.png" alt="nonologo" />
+                <img className="img logo-img-header" src="/media/logos/WDorange.png" alt="nonologo" />
             </Link>
         </section>
     )
