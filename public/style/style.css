@@ -104,7 +104,7 @@ font-family: 'Titillium Web', sans-serif;
 /* logo stuff */
 
 .enter-text {
-    color: var(--highlight);
+    color: var(--highlight3);
     font-family: 'Titillium Web', sans-serif;
     font-size: 4.5rem;
     padding-top: 1rem;
@@ -115,6 +115,7 @@ font-family: 'Titillium Web', sans-serif;
 
 .enter-text:hover {
     color: var(--highlight2);
+    text-decoration: underline;
 }
 
 @keyframes landinganim {

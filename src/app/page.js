@@ -19,7 +19,7 @@ export default function Home() {
                                 <h1 className="lander-text-header">walrusdog</h1>
                                 <p className="lander-text-desc">art | game design | web dev</p>
                                 <p className="lander-text-desc">let's get started, yeah?</p>
-                                <Link className="enter-text" href="/landing">- enter -</Link>
+                                <Link className="enter-text" href="/landing">-|- enter -|-</Link>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Home() {
                                 <p className="lander-text-desc-small">| game design |</p>
                                 <p className="lander-text-desc-small">| web dev |</p>
                                 <p className="lander-text-desc-smalll">let's get started, yeah?</p>
-                                <Link className="enter-text-small" href="/landing">- enter -</Link>
+                                <Link className="enter-text-small" href="/landing">-|- enter -|-</Link>
                             </div>
                         </div>
                     </div>
