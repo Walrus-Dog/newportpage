@@ -134,7 +134,7 @@ font-family: 'Titillium Web', sans-serif;
     width: 99vw;
     height: 100vh;
     background-position: 15%;
-    background-size: 100%;
+    background-size: 130%;
     background-attachment: fixed;
     font-size: calc((1.4 - 1) * 1.2vw + 1rem);
 }
