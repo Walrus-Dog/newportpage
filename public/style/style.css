@@ -430,7 +430,7 @@ font-family: 'Titillium Web', sans-serif;
 /* games page */
 .games {
     width: 99vw;
-    background-image: url(../media/pagebgs/gamestempbg.jpg);
+    background-image: url(../media/pagebgs/gamestempbg.png);
     background-size: 100%;
     background-position: 15%;
     background-attachment: fixed;
@@ -957,7 +957,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .games-small {
         display: block;
-        background-image: url(../media/pagebgs/gamestempbg.jpg);
+        background-image: url(../media/pagebgs/gamestempbg.png);
         background-position: 45%;
         background-attachment: fixed;
         background-size: 370%;
@@ -1426,7 +1426,7 @@ font-family: 'Titillium Web', sans-serif;
 
     .games-small {
         display: block;
-        background-image: url(../media/pagebgs/gamestempbg.jpg);
+        background-image: url(../media/pagebgs/gamestempbg.png);
         background-position: 45%;
         background-attachment: fixed;
         background-size: 370%;
