@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from 'public/style/style.css';
 //import 'public/style/style.css';
 import Image from "next/image";
-import ImgHeader from "../../public/media/landingvid/drawlogoloop1.gif"
+//import ImgHeader from "../../media/landingvid/drawlogoloop1.gif"
 import Head from "../../components/Head/Head";
 
 export default function Home() {
