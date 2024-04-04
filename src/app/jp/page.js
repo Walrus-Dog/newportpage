@@ -33,7 +33,7 @@ export default function Jp() {
                                 <div class="jp-info-div">
                                     <p class="jp-text">
                                         <p>In late 2014 I decided I was going to learn a foreign language, and while on paper I have been learning since 2014, due to school, working, and various other factors, I have only studied for around 3 years in total. Recently however, I am picking up my studies in earnest again, as I hope to take and pass the JLPT 5, 4 and maybe 3 this year (2024).</p>
-                                        <p>My original goal of learning this language is far gone by now, and my goal has shifted to being able to use my skills in Japanese to jet a job in Japan and perhaps eventually move to the country. I am hoping within a year or two to be able to travel to Japan for the first time, something I have been excitedly working towards for a very long time now.</p>
+                                        <p>My original goal of learning this language is far gone by now, and my goal has shifted to being able to use my skills in Japanese to get a job in Japan and perhaps eventually move to the country. I am hoping within a year or two to be able to travel to Japan for the first time, something I have been excitedly working towards for a very long time now.</p>
                                     </p>
                                 </div>
                                 <div id="nonoDoodleDiv" className="nono-doodle-div">
