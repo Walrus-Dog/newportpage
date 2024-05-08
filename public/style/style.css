@@ -179,7 +179,7 @@ font-family: 'Titillium Web', sans-serif;
     color: var(--dark-text);
     padding-bottom: 1rem;
     top: 27.5rem;
-    width: calc((14 - 1) * 1.2vw + 1rem);
+    width: calc((12 - 1) * 1.2vw + 1rem);
     position: fixed;
 }
 
@@ -200,7 +200,7 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .social-icons {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .icon {
@@ -258,7 +258,7 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 .copy-text {
-    font-size: calc((0.8 - 1) * 1.2vw + 1rem);
+    font-size: calc((0.6 - 1) * 1.2vw + 1rem);
     padding: 0.2rem;
 }
 
@@ -1749,7 +1749,7 @@ font-family: 'Titillium Web', sans-serif;
     }
     
     .social-icons {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .lang-select {
@@ -1807,7 +1807,7 @@ font-family: 'Titillium Web', sans-serif;
     }
     
     .social-icons {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .lang-select {
